@@ -1,6 +1,6 @@
 Lift App
 
-https://travis-ci.com/RDK90/lift_app.svg?token=DSACVxyKczSxGskhxsZK&branch=master
+[![Build Status](https://travis-ci.com/RDK90/lift_app.svg?token=DSACVxyKczSxGskhxsZK&branch=master)](https://travis-ci.com/RDK90/lift_app)
 
 Intro
 This app is designed to track workouts for analysis, with a particular emphasis on powerlifting
