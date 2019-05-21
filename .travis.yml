@@ -1,2 +1,6 @@
 language: python
+
+before_install:
+  - docker-compose up
+  
 script: python manage.py runserver
