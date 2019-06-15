@@ -3,12 +3,13 @@ version: '3'
 services:
   db:
     image: postgres
-    container_name: db
+    container_name: postgres
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
-      - "5555:5432"
+      - "5432:5432"
   web:
+    restart: always
     build: .
     container_name: django
     command: python manage.py runserver 0.0.0.0:8000
