@@ -11,5 +11,5 @@ class Training(models.Model):
     weight = models.FloatField()
     rep_category = models.CharField(max_length=10)
 
-    def _str_(self):
+    def __str__(self):
         return self.date
