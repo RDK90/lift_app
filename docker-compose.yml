@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: postgres
-    container_name: postgres
+    container_name: db
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
