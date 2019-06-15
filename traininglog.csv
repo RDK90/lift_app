@@ -1,0 +1,743 @@
+1,Date,Exercise Category,Exercise,Set,Rep,Weight,Rep Category
+2,25/03/19,T1,Low Bar Squat,1,8,20,Warm up
+3,25/03/19,T1,Low Bar Squat,2,4,70,Warm up
+4,25/03/19,T1,Low Bar Squat,3,4,110,Work
+5,25/03/19,T1,Low Bar Squat,4,4,110,Work
+6,25/03/19,T1,Low Bar Squat,5,10,110,AMRAP
+7,25/03/19,T2,Close Grip Barbell Bench,1,8,20,Warm up
+8,25/03/19,T2,Close Grip Barbell Bench,2,10,50,Work
+9,25/03/19,T2,Close Grip Barbell Bench,3,10,50,Work
+10,25/03/19,T2,Close Grip Barbell Bench,4,10,50,Work
+11,25/03/19,T2,Close Grip Barbell Bench,5,12,50,AMRAP
+12,25/03/19,T3,Sumo Deadlift,1,6,60,Warm up
+13,25/03/19,T3,Sumo Deadlift,2,6,90,Work
+14,25/03/19,T3,Sumo Deadlift,3,6,110,Work
+15,25/03/19,T3,Sumo Deadlift,4,6,110,Work
+16,25/03/19,T3,Sumo Deadlift,5,8,120,AMRAP
+17,25/03/19,T3,Leg Extension,1,12,20,Work
+18,25/03/19,T3,Leg Extension,2,10,25,Work
+19,25/03/19,T3,Leg Extension,3,10,30,AMRAP
+20,25/03/19,T3,Bulgarian Split Squats,1,10,20,Work
+21,25/03/19,T3,Bulgarian Split Squats,2,10,20,Work
+22,25/03/19,T3,Bulgarian Split Squats,3,10,20,Work
+23,26/03/19,T1,T&G Bench,1,8,20,Warm up
+24,26/03/19,T1,T&G Bench,2,4,60,Warm up
+25,26/03/19,T1,T&G Bench,3,4,65,Warm up
+26,26/03/19,T1,T&G Bench,4,4,70,Work
+27,26/03/19,T1,T&G Bench,5,4,75,Work
+28,26/03/19,T1,T&G Bench,6,5,80,AMRAP
+29,26/03/19,T2,High Bar Squat,1,8,20,Warm up
+30,26/03/19,T2,High Bar Squat,2,3,80,Work
+31,26/03/19,T2,High Bar Squat,3,3,90,Work
+32,26/03/19,T2,High Bar Squat,4,3,90,Work
+33,26/03/19,T2,High Bar Squat,5,3,90,Work
+34,26/03/19,T2,High Bar Squat,6,3,90,Work
+35,26/03/19,T2,High Bar Squat,7,3,90,Work
+36,26/03/19,T2,High Bar Squat,8,3,90,Work
+37,26/03/19,T3,Floor Press,1,6,60,Work
+38,26/03/19,T3,Floor Press,2,6,65,Work
+39,26/03/19,T3,Floor Press,3,6,70,Work
+40,26/03/19,T3,Floor Press,4,6,75,Work
+41,26/03/19,T3,Floor Press,5,10,60,AMRAP
+42,26/03/19,T3,Dumbbell Incline Bench,1,8,20,Work
+43,26/03/19,T3,Dumbbell Incline Bench,2,8,20,Work
+44,26/03/19,T3,Dumbbell Incline Bench,3,8,20,Work
+45,26/03/19,T3,Dumbbell Incline Bench,4,8,22.5,Work
+46,26/03/19,T3,Dumbbell Incline Bench,5,10,22.5,AMRAP
+47,26/03/19,T3,Dips,1,12,0,Work
+48,26/03/19,T3,Dips,2,12,0,Work
+49,26/03/19,T3,Dips,3,12,0,AMRAP
+50,26/03/19,T3,Russian Twists,1,12,8,Work
+51,26/03/19,T3,Russian Twists,2,12,10,Work
+52,26/03/19,T3,Russian Twists,3,12,10,Work
+53,28/03/19,T1,Deadlift,1,4,60,Warm up
+54,28/03/19,T1,Deadlift,2,4,80,Warm up
+55,28/03/19,T1,Deadlift,3,4,100,Warm up
+56,28/03/19,T1,Deadlift,4,4,125,Work
+57,28/03/19,T1,Deadlift,5,4,125,Work
+58,28/03/19,T1,Deadlift,6,6,125,AMRAP
+59,28/03/19,T2,Pause Squat,1,8,20,Warm up
+60,28/03/19,T2,Pause Squat,2,3,60,Warm up
+61,28/03/19,T2,Pause Squat,3,3,80,Work
+62,28/03/19,T2,Pause Squat,4,3,80,Work
+63,28/03/19,T2,Pause Squat,5,3,80,Work
+64,28/03/19,T2,Pause Squat,6,3,80,Work
+65,28/03/19,T2,Pause Squat,7,3,80,Work
+66,28/03/19,T2,Pause Squat,8,3,80,Work
+67,28/03/19,T2,Pause Squat,9,3,80,Work
+68,28/03/19,T3,Pendlay Row,1,6,55,Warm up
+69,28/03/19,T3,Pendlay Row,2,3,60,Work
+70,28/03/19,T3,Pendlay Row,3,3,65,Work
+71,28/03/19,T3,Pendlay Row,4,3,70,Work
+72,28/03/19,T3,Pendlay Row,5,3,75,AMRAP
+73,28/03/19,T3,Lat Pulldown,1,8,40,Work
+74,28/03/19,T3,Lat Pulldown,2,8,40,Work
+75,28/03/19,T3,Lat Pulldown,3,8,45,Work
+76,28/03/19,T3,Lat Pulldown,4,8,45,Work
+77,28/03/19,T3,Lat Pulldown,5,8,45,AMRAP
+78,28/03/19,T3,KB Rows,1,10,20,Work
+79,28/03/19,T3,KB Rows,2,10,20,Work
+80,28/03/19,T3,KB Rows,3,10,20,AMRAP
+81,28/03/19,T3,Reverse Hypers,1,12,40,Work
+82,28/03/19,T3,Reverse Hypers,2,12,40,Work
+83,28/03/19,T3,Reverse Hypers,3,12,40,Work
+84,08/04/19,T1,Pause Bench,1,5,20,Warm Up
+85,08/04/19,T1,Pause Bench,2,3,60,Warm Up
+86,08/04/19,T1,Pause Bench,3,3,65,Warm Up
+87,08/04/19,T1,Pause Bench,4,3,70,Warm Up
+88,08/04/19,T1,Pause Bench,5,3,75,Work
+89,08/04/19,T1,Pause Bench,6,3,75,Work
+90,08/04/19,T1,Pause Bench,7,3,75,Work
+91,08/04/19,T1,Pause Bench,8,4,75,AMRAP
+92,08/04/19,T2,Deficit Deadlift,1,5,60,Warm Up
+93,08/04/19,T2,Deficit Deadlift,2,2,90,Work
+94,08/04/19,T2,Deficit Deadlift,3,2,90,Work
+95,08/04/19,T2,Deficit Deadlift,4,2,90,Work
+96,08/04/19,T2,Deficit Deadlift,5,2,90,Work
+97,08/04/19,T2,Deficit Deadlift,6,2,90,Work
+98,08/04/19,T2,Deficit Deadlift,7,2,90,Work
+99,08/04/19,T2,Deficit Deadlift,8,2,90,Work
+100,08/04/19,T2,Deficit Deadlift,9,2,90,Work
+101,08/04/19,T3,Overhead Press,1,6,20,Warm Up
+102,08/04/19,T3,Overhead Press,2,6,40,Work
+103,08/04/19,T3,Overhead Press,3,6,40,Work
+104,08/04/19,T3,Overhead Press,4,6,45,Work
+105,08/04/19,T3,Overhead Press,5,6,45,Work
+106,08/04/19,T3,Overhead Press,6,7,45,AMRAP
+107,08/04/19,T3,Lying Barbell Row,1,8,40,Work
+108,08/04/19,T3,Lying Barbell Row,2,8,40,Work
+109,08/04/19,T3,Lying Barbell Row,3,8,42.5,Work
+110,08/04/19,T3,Lying Barbell Row,4,8,42.5,Work
+111,08/04/19,T3,Lying Barbell Row,5,10,42.5,AMRAP
+112,08/04/19,T3,L-Raise,1,10,5,Work
+113,08/04/19,T3,L-Raise,2,10,5,Work
+114,08/04/19,T3,L-Raise,3,10,5,AMRAP
+115,08/04/19,T3,Hammer Curl,1,10,10,Work
+116,08/04/19,T3,Hammer Curl,2,10,10,Work
+117,08/04/19,T3,Hammer Curl,3,10,10,AMRAP
+118,09/04/19,T1,Low Bar Squat,1,8,20,Warmup
+119,09/04/19,T1,Low Bar Squat,2,3,70,Warmup
+120,09/04/19,T1,Low Bar Squat,3,3,90,Warmup
+121,09/04/19,T1,Low Bar Squat,4,3,110,Warmup
+122,09/04/19,T1,Low Bar Squat,5,3,115,Work
+123,09/04/19,T1,Low Bar Squat,6,3,115,Work
+124,09/04/19,T1,Low Bar Squat,7,3,120,Work
+125,09/04/19,T1,Low Bar Squat,8,5,120,AMRAP
+126,09/04/19,T2,Close Grip Bench Press,1,8,20,Warmup
+127,09/04/19,T2,Close Grip Bench Press,2,8,50,Work
+128,09/04/19,T2,Close Grip Bench Press,3,8,50,Work
+129,09/04/19,T2,Close Grip Bench Press,4,8,55,Work
+130,09/04/19,T2,Close Grip Bench Press,5,15,55,AMRAP
+131,09/04/19,T3,Sumo Deadlift,1,6,70,Warmup
+132,09/04/19,T3,Sumo Deadlift,2,6,110,Work
+133,09/04/19,T3,Sumo Deadlift,3,6,110,Work
+134,09/04/19,T3,Sumo Deadlift,4,6,110,Work
+135,09/04/19,T3,Sumo Deadlift,5,6,110,AMRAP
+136,09/04/19,T3,Belt Squat,1,8,30,Warmup
+137,09/04/19,T3,Belt Squat,2,8,80,Work
+138,09/04/19,T3,Belt Squat,3,8,80,Work
+139,09/04/19,T3,Belt Squat,4,8,90,Work
+140,09/04/19,T3,Belt Squat,5,8,100,AMRAP
+141,09/04/19,T3,Back Raise,1,12,0,Work
+142,09/04/19,T3,Back Raise,2,12,5,Work
+143,09/04/19,T3,Back Raise,3,12,10,Work
+144,11/04/19,T1,T&G Bench,1,8,20,Warm up
+145,11/04/19,T1,T&G Bench,2,3,60,Warm up
+146,11/04/19,T1,T&G Bench,3,3,70,Warm up
+147,11/04/19,T1,T&G Bench,4,3,75,Warm up
+148,11/04/19,T1,T&G Bench,5,3,80,Work
+149,11/04/19,T1,T&G Bench,6,3,80,Work
+150,11/04/19,T1,T&G Bench,7,3,80,Work
+151,11/04/19,T1,T&G Bench,8,6,80,AMRAP
+152,11/04/19,T2,Pause Squat,1,8,20,Warm up
+153,11/04/19,T2,Pause Squat,2,2,60,Warm up
+154,11/04/19,T2,Pause Squat,3,2,90,Work
+155,11/04/19,T2,Pause Squat,4,2,90,Work
+156,11/04/19,T2,Pause Squat,5,2,90,Work
+157,11/04/19,T2,Pause Squat,6,2,90,Work
+158,11/04/19,T2,Pause Squat,7,2,90,Work
+159,11/04/19,T2,Pause Squat,8,2,90,Work
+160,11/04/19,T2,Pause Squat,9,2,90,Work
+161,11/04/19,T2,Pause Squat,10,2,90,Work
+162,11/04/19,T3,Floor Press,1,6,60,Work
+163,11/04/19,T3,Floor Press,2,6,65,Work
+164,11/04/19,T3,Floor Press,3,6,65,Work
+165,11/04/19,T3,Floor Press,4,6,70,Work
+166,11/04/19,T3,Floor Press,5,6,75,AMRAP
+167,11/04/19,T3,Inclince DB Bench,1,8,20,Work
+168,11/04/19,T3,Inclince DB Bench,2,8,22.5,Work
+169,11/04/19,T3,Inclince DB Bench,3,8,25,Work
+170,11/04/19,T3,Inclince DB Bench,4,6,27.5,AMRAP
+171,11/04/19,T3,DB Row,1,10,25,Work
+172,11/04/19,T3,DB Row,2,10,25,Work
+173,11/04/19,T3,DB Row,3,10,25,Work
+174,11/04/19,T3,DB Row,4,12,25,AMRAP
+175,11/04/19,T3,Dips,1,12,0,Work
+176,11/04/19,T3,Dips,2,12,0,Work
+177,11/04/19,T3,Dips,3,18,0,AMRAP
+178,12/04/19,T1,Deadlift,1,3,60,Warm up
+179,12/04/19,T1,Deadlift,2,3,100,Warm up
+180,12/04/19,T1,Deadlift,3,3,120,Warm up
+181,12/04/19,T1,Deadlift,4,3,135,Work
+182,12/04/19,T1,Deadlift,5,3,135,Work
+183,12/04/19,T1,Deadlift,6,3,135,Work
+184,12/04/19,T1,Deadlift,7,6,135,AMRAP
+185,12/04/19,T2,High Bar Squat,1,8,20,Warm up
+186,12/04/19,T2,High Bar Squat,2,8,60,Work
+187,12/04/19,T2,High Bar Squat,3,8,80,Work
+188,12/04/19,T2,High Bar Squat,4,8,80,Work
+189,12/04/19,T2,High Bar Squat,5,8,80,Work
+190,12/04/19,T2,High Bar Squat,6,8,80,Work
+191,12/04/19,T3,Pendlay Row,1,6,60,Work
+192,12/04/19,T3,Pendlay Row,2,6,60,Work
+193,12/04/19,T3,Pendlay Row,3,6,65,Work
+194,12/04/19,T3,Pendlay Row,4,6,65,Work
+195,12/04/19,T3,Pendlay Row,5,6,70,AMRAP
+196,12/04/19,T3,Neutral Lat Pulldown,1,8,40,Work
+197,12/04/19,T3,Neutral Lat Pulldown,2,8,40,Work
+198,12/04/19,T3,Neutral Lat Pulldown,3,8,45,Work
+199,12/04/19,T3,Neutral Lat Pulldown,4,8,45,Work
+200,12/04/19,T3,Neutral Lat Pulldown,5,8,45,AMRAP
+201,12/04/19,T3,Kettlebell Row,1,10,20,Work
+202,12/04/19,T3,Kettlebell Row,2,10,20,Work
+203,12/04/19,T3,Kettlebell Row,3,10,20,Work
+204,12/04/19,T3,Reverse Hyper,1,12,40,Work
+205,12/04/19,T3,Reverse Hyper,2,12,40,Work
+206,12/04/19,T3,Reverse Hyper,3,12,40,Work
+207,15/04/19,T1,Low Bar Squat,1,8,20,Warm up
+208,15/04/19,T1,Low Bar Squat,2,3,60,Warm up
+209,15/04/19,T1,Low Bar Squat,3,2,90,Warm up
+210,15/04/19,T1,Low Bar Squat,4,2,110,Warm up
+211,15/04/19,T1,Low Bar Squat,5,2,120,Work
+212,15/04/19,T1,Low Bar Squat,6,2,120,Work
+213,15/04/19,T1,Low Bar Squat,7,2,120,Work
+214,15/04/19,T1,Low Bar Squat,8,2,125,Work
+215,15/04/19,T1,Low Bar Squat,9,5,125,AMRAP
+216,15/04/19,T2,Close Grip Bench,1,8,20,Warm up
+217,15/04/19,T2,Close Grip Bench,2,5,50,Work
+218,15/04/19,T2,Close Grip Bench,3,5,60,Work
+219,15/04/19,T2,Close Grip Bench,4,5,65,Work
+220,15/04/19,T2,Close Grip Bench,5,5,70,Work
+221,15/04/19,T3,Sumo Deadlift,1,6,70,Work
+222,15/04/19,T3,Sumo Deadlift,2,6,100,Work
+223,15/04/19,T3,Sumo Deadlift,3,6,100,Work
+224,15/04/19,T3,Sumo Deadlift,4,6,110,Work
+225,15/04/19,T3,Sumo Deadlift,5,6,120,AMRAP
+226,15/04/19,T3,Belt Squat,1,8,40,Work
+227,15/04/19,T3,Belt Squat,2,8,60,Work
+228,15/04/19,T3,Belt Squat,3,8,80,Work
+229,15/04/19,T3,Belt Squat,4,8,80,Work
+230,15/04/19,T3,Belt Squat,5,8,90,AMRAP
+231,15/04/19,T3,Leg Extensions,1,10,20,Work
+232,15/04/19,T3,Leg Extensions,2,10,25,Work
+233,15/04/19,T3,Leg Extensions,3,10,30,AMRAP
+234,15/04/19,T3,Reverse Hypers,1,12,30,Work
+235,15/04/19,T3,Reverse Hypers,2,12,30,Work
+236,15/04/19,T3,Reverse Hypers,3,12,30,Work
+237,16/04/19,T1,Pause Bench,1,5,20,Warm up
+238,16/04/19,T1,Pause Bench,2,2,50,Warm up
+239,16/04/19,T1,Pause Bench,3,2,60,Warm up
+240,16/04/19,T1,Pause Bench,4,2,70,Warm up
+241,16/04/19,T1,Pause Bench,5,2,80,Work
+242,16/04/19,T1,Pause Bench,6,2,80,Work
+243,16/04/19,T1,Pause Bench,7,2,80,Work
+244,16/04/19,T1,Pause Bench,8,2,80,Work
+245,16/04/19,T1,Pause Bench,9,4,80,AMRAP
+246,16/04/19,T2,Deficit Deadlift,1,2,60,Warm up
+247,16/04/19,T2,Deficit Deadlift,2,2,80,Warm up
+248,16/04/19,T2,Deficit Deadlift,3,2,100,Work
+249,16/04/19,T2,Deficit Deadlift,4,2,100,Work
+250,16/04/19,T2,Deficit Deadlift,5,2,120,Work
+251,16/04/19,T2,Deficit Deadlift,6,2,120,Work
+252,16/04/19,T2,Deficit Deadlift,7,2,125,AMRAP
+253,16/04/19,T3,Overhead Press,1,6,20,Warm up
+254,16/04/19,T3,Overhead Press,2,6,40,Work
+255,16/04/19,T3,Overhead Press,3,6,45,Work
+256,16/04/19,T3,Overhead Press,4,6,45,Work
+257,16/04/19,T3,Overhead Press,5,6,50,Work
+258,16/04/19,T3,Overhead Press,6,6,40,AMRAP
+259,16/04/19,T3,Lying Barbell Row,1,8,40,Work
+260,16/04/19,T3,Lying Barbell Row,2,8,40,Work
+261,16/04/19,T3,Lying Barbell Row,3,8,40,Work
+262,16/04/19,T3,Lying Barbell Row,4,8,40,Work
+263,16/04/19,T3,Lying Barbell Row,5,12,40,AMRAP
+264,16/04/19,T3,Close Grip Dumbbell Bench,1,10,20,Work
+265,16/04/19,T3,Close Grip Dumbbell Bench,2,10,20,Work
+266,16/04/19,T3,Close Grip Dumbbell Bench,3,15,20,Work
+267,16/04/19,T3,L-Raise,1,10,5,Work
+268,16/04/19,T3,L-Raise,2,10,5,Work
+269,16/04/19,T3,L-Raise,3,10,5,Work
+270,18/04/19,T1,T&G Bench,1,8,20,Warm up
+271,18/04/19,T1,T&G Bench,2,2,50,Warm up
+272,18/04/19,T1,T&G Bench,3,2,60,Warm up
+273,18/04/19,T1,T&G Bench,4,2,70,Warm up
+274,18/04/19,T1,T&G Bench,5,2,80,Work
+275,18/04/19,T1,T&G Bench,6,2,85,Work
+276,18/04/19,T1,T&G Bench,7,2,85,Work
+277,18/04/19,T1,T&G Bench,8,2,85,Work
+278,18/04/19,T1,T&G Bench,9,2,85,Work
+279,18/04/19,T1,T&G Bench,10,3,85,AMRAP
+280,18/04/19,T2,Pause Squat,1,5,20,Warm up
+281,18/04/19,T2,Pause Squat,2,2,60,Warm up
+282,18/04/19,T2,Pause Squat,3,2,80,Warm up
+283,18/04/19,T2,Pause Squat,4,2,95,Work
+284,18/04/19,T2,Pause Squat,5,2,95,Work
+285,18/04/19,T2,Pause Squat,6,2,100,Work
+286,18/04/19,T2,Pause Squat,7,2,100,Work
+287,18/04/19,T2,Pause Squat,8,2,100,Work
+288,18/04/19,T3,Floor Press,1,6,60,Work
+289,18/04/19,T3,Floor Press,2,6,65,Work
+290,18/04/19,T3,Floor Press,3,6,70,Work
+291,18/04/19,T3,Floor Press,4,6,75,Work
+292,18/04/19,T3,Floor Press,5,6,75,AMRAP
+293,18/04/19,T3,Incline Dumbbell Bench,1,8,22.5,Work
+294,18/04/19,T3,Incline Dumbbell Bench,2,8,25,Work
+295,18/04/19,T3,Incline Dumbbell Bench,3,8,25,Work
+296,18/04/19,T3,Incline Dumbbell Bench,4,8,27.5,AMRAP
+297,18/04/19,T3,Dumbbell Row,1,10,25,Work
+298,18/04/19,T3,Dumbbell Row,2,10,25,Work
+299,18/04/19,T3,Dumbbell Row,3,10,27.5,Work
+300,18/04/19,T3,Dumbbell Row,4,10,27.5,Work
+301,18/04/19,T3,Incline Dumbbell Fly,1,12,10,Work
+302,18/04/19,T3,Incline Dumbbell Fly,2,12,10,Work
+303,18/04/19,T3,Incline Dumbbell Fly,3,12,10,Work
+304,20/04/19,T1,Deadlift,1,2,60,Warm up
+305,20/04/19,T1,Deadlift,2,2,90,Warm up
+306,20/04/19,T1,Deadlift,3,2,120,Warm up
+307,20/04/19,T1,Deadlift,4,2,140,Work
+308,20/04/19,T1,Deadlift,5,2,150,Work
+309,20/04/19,T1,Deadlift,6,2,150,Work
+310,20/04/19,T1,Deadlift,7,2,155,AMRAP
+311,20/04/19,T2,High Bar Squat,1,6,20,Warm up
+312,20/04/19,T2,High Bar Squat,2,6,60,Warm up
+313,20/04/19,T2,High Bar Squat,3,6,85,Work
+314,20/04/19,T2,High Bar Squat,4,6,85,Work
+315,20/04/19,T2,High Bar Squat,5,6,85,Work
+316,20/04/19,T2,High Bar Squat,6,6,85,Work
+317,20/04/19,T3,Pendlay Row,1,6,60,Work
+318,20/04/19,T3,Pendlay Row,2,6,65,Work
+319,20/04/19,T3,Pendlay Row,3,6,65,Work
+320,20/04/19,T3,Pendlay Row,4,6,70,Work
+321,20/04/19,T3,Pendlay Row,5,8,70,AMRAP
+322,20/04/19,T3,Neutral Lat Pulldown,1,8,30,Work
+323,20/04/19,T3,Neutral Lat Pulldown,2,8,35,Work
+324,20/04/19,T3,Neutral Lat Pulldown,3,8,40,Work
+325,20/04/19,T3,Neutral Lat Pulldown,4,8,40,Work
+326,20/04/19,T3,Neutral Lat Pulldown,5,8,45,AMRAP
+327,20/04/19,T3,Facepull,1,10,40,Work
+328,20/04/19,T3,Facepull,2,10,45,Work
+329,20/04/19,T3,Facepull,3,10,50,AMRAP
+330,20/04/19,T3,Back Raise,1,12,10,Work
+331,20/04/19,T3,Back Raise,2,12,10,Work
+332,20/04/19,T3,Back Raise,3,15,15,AMRAP
+333,23/04/19,T1,Low Bar Squat,1,8,20,Warm up
+334,23/04/19,T1,Low Bar Squat,2,3,60,Warm up
+335,23/04/19,T1,Low Bar Squat,3,3,80,Warm up
+336,23/04/19,T1,Low Bar Squat,4,3,100,Work
+337,23/04/19,T1,Low Bar Squat,5,3,110,Work
+338,23/04/19,T1,Low Bar Squat,6,2,115,Work
+339,23/04/19,T1,Low Bar Squat,7,1,120,Work
+340,23/04/19,T1,Low Bar Squat,8,1,120,Work
+341,23/04/19,T1,Low Bar Squat,9,1,125,Work
+342,23/04/19,T1,Low Bar Squat,10,1,125,Work
+343,23/04/19,T1,Low Bar Squat,11,5,125,AMRAP
+344,23/04/19,T2,Close Grip Bench,1,8,20,Warm up
+345,23/04/19,T2,Close Grip Bench,2,5,50,Work
+346,23/04/19,T2,Close Grip Bench,3,5,60,Work
+347,23/04/19,T2,Close Grip Bench,4,5,60,Work
+348,23/04/19,T2,Close Grip Bench,5,5,65,Work
+349,23/04/19,T2,Close Grip Bench,6,5,70,Work
+350,23/04/19,T3,Sumo Deadlift,1,6,70,Work
+351,23/04/19,T3,Sumo Deadlift,2,6,110,Work
+352,23/04/19,T3,Sumo Deadlift,3,6,110,Work
+353,23/04/19,T3,Sumo Deadlift,4,6,110,Work
+354,23/04/19,T3,Belt Squat,1,8,80,Work
+355,23/04/19,T3,Belt Squat,2,8,80,Work
+356,23/04/19,T3,Belt Squat,3,8,80,Work
+357,23/04/19,T3,Belt Squat,4,12,80,Work
+358,23/04/19,T3,Leg Extensions,1,12,20,Work
+359,23/04/19,T3,Leg Extensions,2,12,20,Work
+360,23/04/19,T3,Leg Extensions,3,12,20,Work
+361,23/04/19,T3,Reverse Hyper,1,12,40,Work
+362,23/04/19,T3,Reverse Hyper,2,12,40,Work
+363,23/04/19,T3,Reverse Hyper,3,12,40,Work
+364,25/04/19,T1,T&G Bench,1,8,20,Warm up
+365,25/04/19,T1,T&G Bench,2,3,60,Warm up
+366,25/04/19,T1,T&G Bench,3,3,65,Warm up
+367,25/04/19,T1,T&G Bench,4,3,70,Work
+368,25/04/19,T1,T&G Bench,5,3,75,Work
+369,25/04/19,T1,T&G Bench,6,2,80,Work
+370,25/04/19,T1,T&G Bench,7,1,85,Work
+371,25/04/19,T1,T&G Bench,8,1,85,Work
+372,25/04/19,T1,T&G Bench,9,1,85,Work
+373,25/04/19,T1,T&G Bench,10,1,85,Work
+374,25/04/19,T1,T&G Bench,11,3,85,AMRAP
+375,25/04/19,T2,Pause Squat,1,5,60,Warm up
+376,25/04/19,T2,Pause Squat,2,5,90,Work
+377,25/04/19,T2,Pause Squat,3,5,90,Work
+378,25/04/19,T2,Pause Squat,4,5,90,Work
+379,25/04/19,T2,Pause Squat,5,5,90,Work
+380,25/04/19,T2,Pause Squat,6,5,90,Work
+381,25/04/19,T3,Floor Press,1,6,60,Work
+382,25/04/19,T3,Floor Press,2,6,65,Work
+383,25/04/19,T3,Floor Press,3,6,70,Work
+384,25/04/19,T3,Floor Press,4,10,70,AMRAP
+385,25/04/19,T3,Incline Dumbbell Bench,1,8,20,Work
+386,25/04/19,T3,Incline Dumbbell Bench,2,8,22.5,Work
+387,25/04/19,T3,Incline Dumbbell Bench,3,8,22.5,Work
+388,25/04/19,T3,Incline Dumbbell Bench,4,8,22.5,Work
+389,25/04/19,T3,Dumbbell Row,1,10,25,Work
+390,25/04/19,T3,Dumbbell Row,2,10,27.5,Work
+391,25/04/19,T3,Dumbbell Row,3,10,27.5,Work
+392,25/04/19,T3,Tricep Pushdown,1,12,30,Work
+393,25/04/19,T3,Tricep Pushdown,2,12,35,Work
+394,25/04/19,T3,Tricep Pushdown,3,15,40,AMRAP
+395,26/04/19,T1,Deadlift,1,3,60,Warm up
+396,26/04/19,T1,Deadlift,2,3,100,Warm up
+397,26/04/19,T1,Deadlift,3,3,130,Warm up
+398,26/04/19,T1,Deadlift,4,2,140,Warm up
+399,26/04/19,T1,Deadlift,5,1,150,Work
+400,26/04/19,T1,Deadlift,6,1,150,Work
+401,26/04/19,T1,Deadlift,7,1,155,Work
+402,26/04/19,T1,Deadlift,8,1,160,Work
+403,26/04/19,T1,Deadlift,9,2,160,AMRAP
+404,26/04/19,T2,High Bar Squat,1,8,20,Warm up
+405,26/04/19,T2,High Bar Squat,2,5,60,Warm up
+406,26/04/19,T2,High Bar Squat,3,5,90,Work
+407,26/04/19,T2,High Bar Squat,4,5,90,Work
+408,26/04/19,T2,High Bar Squat,5,5,90,Work
+409,26/04/19,T2,High Bar Squat,6,5,90,Work
+410,26/04/19,T2,High Bar Squat,7,5,90,Work
+411,26/04/19,T3,Pendlay Row,1,6,60,Work
+412,26/04/19,T3,Pendlay Row,2,6,65,Work
+413,26/04/19,T3,Pendlay Row,3,6,70,Work
+414,26/04/19,T3,Pendlay Row,4,6,75,AMRAP
+415,26/04/19,T3,Lying Barbell Row,1,8,40,Work
+416,26/04/19,T3,Lying Barbell Row,2,8,40,Work
+417,26/04/19,T3,Lying Barbell Row,3,8,40,Work
+418,26/04/19,T3,Lying Barbell Row,4,8,40,Work
+419,26/04/19,T3,Lat Pulldown,1,10,40,Work
+420,26/04/19,T3,Lat Pulldown,2,10,45,Work
+421,26/04/19,T3,Lat Pulldown,3,10,50,Work
+422,26/04/19,T3,Back Raise,1,12,15,Work
+423,26/04/19,T3,Back Raise,2,12,15,Work
+424,26/04/19,T3,Back Raise,3,15,15,AMRAP
+425,28/04/19,T1,Pause Bench,1,8,20,Warm up
+426,28/04/19,T1,Pause Bench,2,3,60,Warm up
+427,28/04/19,T1,Pause Bench,3,3,65,Warm up
+428,28/04/19,T1,Pause Bench,4,3,70,Work
+429,28/04/19,T1,Pause Bench,5,2,75,Work
+430,28/04/19,T1,Pause Bench,6,1,77.5,Work
+431,28/04/19,T1,Pause Bench,7,1,77.5,Work
+432,28/04/19,T1,Pause Bench,8,1,80,Work
+433,28/04/19,T1,Pause Bench,9,1,80,Work
+434,28/04/19,T1,Pause Bench,10,5,80,AMRAP
+435,28/04/19,T2,Stiff Legged Deadlift,1,5,60,Work
+436,28/04/19,T2,Stiff Legged Deadlift,2,5,80,Work
+437,28/04/19,T2,Stiff Legged Deadlift,3,5,100,Work
+438,28/04/19,T2,Stiff Legged Deadlift,4,5,100,Work
+439,28/04/19,T2,Stiff Legged Deadlift,5,5,100,Work
+440,28/04/19,T3,Overhead Press,1,6,20,Warm up
+441,28/04/19,T3,Overhead Press,2,6,40,Work
+442,28/04/19,T3,Overhead Press,3,6,45,Work
+443,28/04/19,T3,Overhead Press,4,6,45,Work
+444,28/04/19,T3,Overhead Press,5,6,50,AMRAP
+445,28/04/19,T3,Supinated Barbell Row,1,8,50,Work
+446,28/04/19,T3,Supinated Barbell Row,2,8,55,Work
+447,28/04/19,T3,Supinated Barbell Row,3,8,60,Work
+448,28/04/19,T3,Supinated Barbell Row,4,8,65,AMRAP
+449,28/04/19,T3,L-Raise,1,10,5,Work
+450,28/04/19,T3,L-Raise,2,10,5,Work
+451,28/04/19,T3,L-Raise,3,10,5,Work
+452,28/04/19,T3,Dips,1,0,12,Work
+453,28/04/19,T3,Dips,2,0,12,Work
+454,28/04/19,T3,Dips,3,0,15,AMRAP
+455,30/04/19,T1,Low Bar Squat,1,8,20,Warm up
+456,30/04/19,T1,Low Bar Squat,2,3,70,Warm up
+457,30/04/19,T1,Low Bar Squat,3,3,90,Warm up
+458,30/04/19,T1,Low Bar Squat,4,3,110,Work
+459,30/04/19,T1,Low Bar Squat,5,2,115,Work
+460,30/04/19,T1,Low Bar Squat,6,1,120,Work
+461,30/04/19,T1,Low Bar Squat,7,1,125,Work
+462,30/04/19,T1,Low Bar Squat,8,1,125,Work
+463,30/04/19,T1,Low Bar Squat,9,1,125,Work
+464,30/04/19,T1,Low Bar Squat,10,6,125,AMRAP
+465,30/04/19,T2,Close Grip Bench Press,1,4,20,Warm up
+466,30/04/19,T2,Close Grip Bench Press,2,4,60,Work
+467,30/04/19,T2,Close Grip Bench Press,3,4,65,Work
+468,30/04/19,T2,Close Grip Bench Press,4,4,70,Work
+469,30/04/19,T2,Close Grip Bench Press,5,4,75,Work
+470,30/04/19,T2,Close Grip Bench Press,6,4,80,AMRAP
+471,30/04/19,T3,Good Morning,1,6,40,Work
+472,30/04/19,T3,Good Morning,2,6,50,Work
+473,30/04/19,T3,Good Morning,3,6,55,Work
+474,30/04/19,T3,Good Morning,4,6,60,Work
+475,30/04/19,T3,Good Morning,5,6,65,Work
+476,30/04/19,T3,Belt Squat,1,8,80,Work
+477,30/04/19,T3,Belt Squat,2,8,80,Work
+478,30/04/19,T3,Belt Squat,3,8,90,Work
+479,30/04/19,T3,Belt Squat,4,8,100,Work
+480,30/04/19,T3,Belt Squat,5,8,100,Work
+481,30/04/19,T3,Reverse Hyper,1,10,40,Work
+482,30/04/19,T3,Reverse Hyper,2,12,40,Work
+483,30/04/19,T3,Reverse Hyper,3,12,40,Work
+484,02/05/19,T1,T&G Bench,1,8,20,Warm up
+485,02/05/19,T1,T&G Bench,2,3,60,Warm up
+486,02/05/19,T1,T&G Bench,3,3,70,Warm up
+487,02/05/19,T1,T&G Bench,4,3,75,Work
+488,02/05/19,T1,T&G Bench,5,2,80,Work
+489,02/05/19,T1,T&G Bench,6,1,85,Work
+490,02/05/19,T1,T&G Bench,7,1,85,Work
+491,02/05/19,T1,T&G Bench,8,1,87.5,Work
+492,02/05/19,T1,T&G Bench,9,5,87.5,AMRAP
+493,02/05/19,T2,Pause Squat,1,4,40,Warm up
+494,02/05/19,T2,Pause Squat,2,4,80,Warm up
+495,02/05/19,T2,Pause Squat,3,4,100,Work
+496,02/05/19,T2,Pause Squat,4,4,100,Work
+497,02/05/19,T2,Pause Squat,5,4,100,Work
+498,02/05/19,T2,Pause Squat,6,4,100,Work
+499,02/05/19,T2,Pause Squat,7,4,100,Work
+500,02/05/19,T3,Floor Press,1,6,60,Work
+501,02/05/19,T3,Floor Press,2,6,70,Work
+502,02/05/19,T3,Floor Press,3,6,70,Work
+503,02/05/19,T3,Floor Press,4,6,75,Work
+504,02/05/19,T3,Floor Press,5,6,80,AMRAP
+505,02/05/19,T3,Incline Dumbbell Bench,1,8,20,Work
+506,02/05/19,T3,Incline Dumbbell Bench,2,8,22.5,Work
+507,02/05/19,T3,Incline Dumbbell Bench,3,8,22.5,Work
+508,02/05/19,T3,Incline Dumbbell Bench,4,8,25,Work
+509,02/05/19,T3,Dumbbell Row,1,10,22.5,Work
+510,02/05/19,T3,Dumbbell Row,2,10,22.5,Work
+511,02/05/19,T3,Dumbbell Row,3,10,25,Work
+512,02/05/19,T3,Dumbbell Row,4,10,25,Work
+513,03/05/19,T1,Deadlift,1,3,60,Warm up
+514,03/05/19,T1,Deadlift,2,3,100,Warm up
+515,03/05/19,T1,Deadlift,3,3,120,Warm up
+516,03/05/19,T1,Deadlift,4,3,140,Warm up
+517,03/05/19,T1,Deadlift,5,3,150,Work
+518,03/05/19,T1,Deadlift,6,2,155,Work
+519,03/05/19,T1,Deadlift,7,1,160,Work
+520,03/05/19,T1,Deadlift,8,1,165,AMRAP
+521,03/05/19,T2,High Bar Squat,1,4,40,Warm up
+522,03/05/19,T2,High Bar Squat,2,4,80,Warm up
+523,03/05/19,T2,High Bar Squat,3,4,95,Work
+524,03/05/19,T2,High Bar Squat,4,4,95,Work
+525,03/05/19,T2,High Bar Squat,5,4,95,Work
+526,03/05/19,T2,High Bar Squat,6,4,95,Work
+527,03/05/19,T2,High Bar Squat,7,4,95,Work
+528,03/05/19,T3,Pendaly Row,1,6,60,Work
+529,03/05/19,T3,Pendaly Row,2,6,60,Work
+530,03/05/19,T3,Pendaly Row,3,6,65,Work
+531,03/05/19,T3,Pendaly Row,4,6,70,Work
+532,03/05/19,T3,Pendaly Row,5,6,75,Work
+533,03/05/19,T3,Lying Barbell Row,1,8,40,Work
+534,03/05/19,T3,Lying Barbell Row,2,8,40,Work
+535,03/05/19,T3,Lying Barbell Row,3,8,45,Work
+536,03/05/19,T3,Lying Barbell Row,4,8,45,Work
+537,03/05/19,T3,45 Degree Back Raise,1,12,20,Work
+538,03/05/19,T3,45 Degree Back Raise,2,12,20,Work
+539,03/05/19,T3,45 Degree Back Raise,3,15,20,Work
+540,07/05/19,T1,Low Bar Squat,1,8,20,Warm up
+541,07/05/19,T1,Low Bar Squat,2,3,60,Warm up
+542,07/05/19,T1,Low Bar Squat,3,3,80,Warm up
+543,07/05/19,T1,Low Bar Squat,4,3,100,Warm up
+544,07/05/19,T1,Low Bar Squat,5,3,120,Work
+545,07/05/19,T1,Low Bar Squat,6,2,125,Work
+546,07/05/19,T1,Low Bar Squat,7,1,130,Work
+547,07/05/19,T1,Low Bar Squat,8,1,130,Work
+548,07/05/19,T1,Low Bar Squat,9,3,135,AMRAP
+549,07/05/19,T2,Close Grip Bench,1,4,20,Warm up
+550,07/05/19,T2,Close Grip Bench,2,3,60,Work
+551,07/05/19,T2,Close Grip Bench,3,3,70,Work
+552,07/05/19,T2,Close Grip Bench,4,3,70,Work
+553,07/05/19,T2,Close Grip Bench,5,3,75,Work
+554,07/05/19,T2,Close Grip Bench,6,3,75,Work
+555,07/05/19,T3,Stiff Leg Deadlift,1,6,70,Work
+556,07/05/19,T3,Stiff Leg Deadlift,2,6,90,Work
+557,07/05/19,T3,Stiff Leg Deadlift,3,6,90,Work
+558,07/05/19,T3,Stiff Leg Deadlift,4,6,100,Work
+559,07/05/19,T3,Leg Press,1,8,40,Work
+560,07/05/19,T3,Leg Press,2,8,60,Work
+561,07/05/19,T3,Leg Press,3,8,60,Work
+562,07/05/19,T3,Leg Press,4,8,60,Work
+563,07/05/19,T3,Reverse Hyper,1,12,40,Work
+564,07/05/19,T3,Reverse Hyper,2,12,40,Work
+565,07/05/19,T3,Reverse Hyper,3,12,40,Work
+566,07/05/19,T3,Reverse Hyper,4,10,40,Work
+567,08/05/19,T1,T&G Bench,1,5,20,Warm up
+568,08/05/19,T1,T&G Bench,2,3,60,Warm up
+569,08/05/19,T1,T&G Bench,3,3,70,Warm up
+570,08/05/19,T1,T&G Bench,4,3,75,Warm up
+571,08/05/19,T1,T&G Bench,5,3,80,Work
+572,08/05/19,T1,T&G Bench,6,2,85,Work
+573,08/05/19,T1,T&G Bench,7,1,87.5,Work
+574,08/05/19,T1,T&G Bench,8,1,90,Work
+575,08/05/19,T1,T&G Bench,9,3,90,AMRAP
+576,08/05/19,T2,Pause Squat,1,5,40,Warm up
+577,08/05/19,T2,Pause Squat,2,3,80,Warm up
+578,08/05/19,T2,Pause Squat,3,3,100,Work
+579,08/05/19,T2,Pause Squat,4,3,100,Work
+580,08/05/19,T2,Pause Squat,5,3,100,Work
+581,08/05/19,T2,Pause Squat,6,3,100,Work
+582,08/05/19,T2,Pause Squat,7,3,100,Work
+583,08/05/19,T3,Incline Barbell Bench,1,6,50,Work
+584,08/05/19,T3,Incline Barbell Bench,2,6,50,Work
+585,08/05/19,T3,Incline Barbell Bench,3,6,55,Work
+586,08/05/19,T3,Incline Barbell Bench,4,8,55,AMRAP
+587,08/05/19,T3,Close Grip Dumbbell Bench,1,8,20,Work
+588,08/05/19,T3,Close Grip Dumbbell Bench,2,8,22.5,Work
+589,08/05/19,T3,Close Grip Dumbbell Bench,3,8,25,Work
+590,08/05/19,T3,Close Grip Dumbbell Bench,4,8,27.5,Work
+591,08/05/19,T3,Tricep Pushdown,1,10,30,Work
+592,08/05/19,T3,Tricep Pushdown,2,10,35,Work
+593,08/05/19,T3,Tricep Pushdown,3,10,40,Work
+594,08/05/19,T3,Tricep Pushdown,4,10,45,Work
+595,08/05/19,T3,Lat Pulldown,1,10,45,Work
+596,08/05/19,T3,Lat Pulldown,2,10,45,Work
+597,08/05/19,T3,Lat Pulldown,3,10,45,Work
+598,10/05/19,T1,Deadlift,1,3,70,Warm up
+599,10/05/19,T1,Deadlift,2,3,110,Warm up
+600,10/05/19,T1,Deadlift,3,3,140,Warm up
+601,10/05/19,T1,Deadlift,4,3,150,Work
+602,10/05/19,T1,Deadlift,5,2,155,Work
+603,10/05/19,T1,Deadlift,6,1,160,Work
+604,10/05/19,T1,Deadlift,7,1,165,Work
+605,10/05/19,T1,Deadlift,8,1,170,AMRAP
+606,10/05/19,T2,High Bar Squat,1,3,40,Warm up
+607,10/05/19,T2,High Bar Squat,2,3,80,Warm up
+608,10/05/19,T2,High Bar Squat,3,3,95,Work
+609,10/05/19,T2,High Bar Squat,4,3,95,Work
+610,10/05/19,T2,High Bar Squat,5,3,95,Work
+611,10/05/19,T2,High Bar Squat,6,3,95,Work
+612,10/05/19,T2,High Bar Squat,7,3,95,Work
+613,10/05/19,T3,Pendlay Row,1,6,60,Work
+614,10/05/19,T3,Pendlay Row,2,6,60,Work
+615,10/05/19,T3,Pendlay Row,3,6,65,Work
+616,10/05/19,T3,Pendlay Row,4,6,65,Work
+617,10/05/19,T3,Pendlay Row,5,6,70,Work
+618,10/05/19,T3,Lat Pulldown,1,8,40,Work
+619,10/05/19,T3,Lat Pulldown,2,8,45,Work
+620,10/05/19,T3,Lat Pulldown,3,8,50,Work
+621,10/05/19,T3,Lat Pulldown,4,8,55,AMRAP
+622,10/05/19,T3,Back Raise,1,10,24,Work
+623,10/05/19,T3,Back Raise,2,10,24,Work
+624,10/05/19,T3,Back Raise,3,10,24,Work
+625,10/05/19,T3,Back Raise,4,10,24,Work
+626,20/05/19,T1,Low Bar Squat,1,3,40,Warm up
+627,20/05/19,T1,Low Bar Squat,2,3,80,Warm up
+628,20/05/19,T1,Low Bar Squat,3,3,100,Warm up
+629,20/05/19,T1,Low Bar Squat,4,3,110,Warm up
+630,20/05/19,T1,Low Bar Squat,5,3,120,Work
+631,20/05/19,T1,Low Bar Squat,6,3,120,Work
+632,20/05/19,T1,Low Bar Squat,7,8,120,AMRAP
+633,20/05/19,T2,Close Grip Bench,1,4,20,Warm up
+634,20/05/19,T2,Close Grip Bench,2,4,50,Warm up
+635,20/05/19,T2,Close Grip Bench,3,4,60,Work
+636,20/05/19,T2,Close Grip Bench,4,4,65,Work
+637,20/05/19,T2,Close Grip Bench,5,4,70,Work
+638,20/05/19,T2,Close Grip Bench,6,4,70,Work
+639,20/05/19,T2,Close Grip Bench,7,4,75,Work
+640,20/05/19,T3,Stiff Legged Deadlift,1,6,70,Warm up
+641,20/05/19,T3,Stiff Legged Deadlift,2,6,100,Work
+642,20/05/19,T3,Stiff Legged Deadlift,3,6,100,Work
+643,20/05/19,T3,Stiff Legged Deadlift,4,6,100,Work
+644,20/05/19,T3,Belt Squat,1,8,80,Work
+645,20/05/19,T3,Belt Squat,2,8,80,Work
+646,20/05/19,T3,Belt Squat,3,8,90,Work
+647,20/05/19,T3,Belt Squat,4,8,90,Work
+648,20/05/19,T3,Reverse Hyper,1,10,40,Work
+649,20/05/19,T3,Reverse Hyper,2,10,40,Work
+650,20/05/19,T3,Reverse Hyper,3,10,45,Work
+651,20/05/19,T3,Reverse Hyper,4,10,45,Work
+652,21/05/19,T1,T&G Bench,1,5,20,Warm up
+653,21/05/19,T1,T&G Bench,2,3,50,Warm up
+654,21/05/19,T1,T&G Bench,3,3,60,Warm up
+655,21/05/19,T1,T&G Bench,4,3,70,Warm up
+656,21/05/19,T1,T&G Bench,5,3,75,Warm up
+657,21/05/19,T1,T&G Bench,6,3,80,Work
+658,21/05/19,T1,T&G Bench,7,3,80,Work
+659,21/05/19,T1,T&G Bench,8,5,80,AMRAP
+660,21/05/19,T2,Pause Squat,1,4,40,Warm up
+661,21/05/19,T2,Pause Squat,2,2,80,Warm up
+662,21/05/19,T2,Pause Squat,3,2,90,Work
+663,21/05/19,T2,Pause Squat,4,2,90,Work
+664,21/05/19,T2,Pause Squat,5,2,95,Work
+665,21/05/19,T2,Pause Squat,6,2,95,Work
+666,21/05/19,T2,Pause Squat,7,2,100,AMRAP
+667,21/05/19,T3,Floor Press,1,6,60,Work
+668,21/05/19,T3,Floor Press,2,6,65,Work
+669,21/05/19,T3,Floor Press,3,6,70,Work
+670,21/05/19,T3,Floor Press,4,6,70,Work
+671,21/05/19,T3,Floor Press,5,6,75,Work
+672,21/05/19,T3,Incline Dumbbell Press,1,8,20,Work
+673,21/05/19,T3,Incline Dumbbell Press,2,8,22.5,Work
+674,21/05/19,T3,Incline Dumbbell Press,3,8,25,Work
+675,21/05/19,T3,Incline Dumbbell Press,4,8,25,Work
+676,21/05/19,T3,Incline Dumbbell Press,5,8,25,Work
+677,21/05/19,T3,Dumbbell Row,1,10,22.5,Work
+678,21/05/19,T3,Dumbbell Row,2,10,25,Work
+679,21/05/19,T3,Dumbbell Row,3,10,25,Work
+680,21/05/19,T3,Dumbbell Row,4,10,25,Work
+681,21/05/19,T3,Tricep Pushdown,1,10,20,Work
+682,21/05/19,T3,Tricep Pushdown,2,10,20,Work
+683,23/05/19,T1,Deadlift,1,5,60,Warm up
+684,23/05/19,T1,Deadlift,2,3,80,Warm up
+685,23/05/19,T1,Deadlift,3,3,100,Warm up
+686,23/05/19,T1,Deadlift,4,3,130,Warm up
+687,23/05/19,T1,Deadlift,5,3,145,Work
+688,23/05/19,T1,Deadlift,6,3,145,Work
+689,23/05/19,T1,Deadlift,7,3,150,AMRAP
+690,23/05/19,T2,High Bar Squat,1,5,40,Warm up
+691,23/05/19,T2,High Bar Squat,2,2,80,Warm up
+692,23/05/19,T2,High Bar Squat,3,2,100,Work
+693,23/05/19,T2,High Bar Squat,4,2,100,Work
+694,23/05/19,T2,High Bar Squat,5,2,100,Work
+695,23/05/19,T2,High Bar Squat,6,2,100,Work
+696,23/05/19,T2,High Bar Squat,7,4,100,Work
+697,23/05/19,T3,Pendlay Row,1,6,60,Work
+698,23/05/19,T3,Pendlay Row,2,6,65,Work
+699,23/05/19,T3,Pendlay Row,3,6,65,Work
+700,23/05/19,T3,Pendlay Row,4,6,70,Work
+701,23/05/19,T3,Pendlay Row,5,6,70,Work
+702,23/05/19,T3,Kettlebell Row,1,8,20,Work
+703,23/05/19,T3,Kettlebell Row,2,8,24,Work
+704,23/05/19,T3,Kettlebell Row,3,8,24,Work
+705,23/05/19,T3,Kettlebell Row,4,8,24,Work
+706,23/05/19,T3,Back Raise,1,10,24,Work
+707,23/05/19,T3,Back Raise,2,10,24,Work
+708,23/05/19,T3,Back Raise,3,10,24,Work
+709,24/05/19,T1,Pause Bench,1,5,20,Warm up
+710,24/05/19,T1,Pause Bench,2,3,60,Warm up
+711,24/05/19,T1,Pause Bench,3,3,65,Warm up
+712,24/05/19,T1,Pause Bench,4,3,70,Warm up
+713,24/05/19,T1,Pause Bench,5,3,75,Work
+714,24/05/19,T1,Pause Bench,6,3,75,Work
+715,24/05/19,T1,Pause Bench,7,3,75,Work
+716,24/05/19,T1,Pause Bench,8,3,80,AMRAP
+717,24/05/19,T2,Deficit Deadlift,1,4,60,Warm up
+718,24/05/19,T2,Deficit Deadlift,2,2,100,Warm up
+719,24/05/19,T2,Deficit Deadlift,3,2,115,Work
+720,24/05/19,T2,Deficit Deadlift,4,2,115,Work
+721,24/05/19,T2,Deficit Deadlift,5,2,115,Work
+722,24/05/19,T2,Deficit Deadlift,6,2,115,Work
+723,24/05/19,T2,Deficit Deadlift,7,2,115,Work
+724,24/05/19,T3,Overhead Press,1,6,20,Warm up
+725,24/05/19,T3,Overhead Press,2,6,40,Work
+726,24/05/19,T3,Overhead Press,3,6,45,Work
+727,24/05/19,T3,Overhead Press,4,6,50,Work
+728,24/05/19,T3,Overhead Press,5,6,50,Work
+729,24/05/19,T3,Overhead Press,6,3,50,Work
+730,24/05/19,T3,Lying Barbell Row,1,8,40,Work
+731,24/05/19,T3,Lying Barbell Row,2,8,40,Work
+732,24/05/19,T3,Lying Barbell Row,3,8,40,Work
+733,24/05/19,T3,Lying Barbell Row,4,8,40,Work
+734,24/05/19,T3,Lying Barbell Row,5,8,40,Work
+735,24/05/19,T3,L-Raise,1,5,10,Work
+736,24/05/19,T3,L-Raise,2,5,10,Work
+737,24/05/19,T3,L-Raise,3,5,10,Work
+738,24/05/19,T3,Hammer Curl,1,10,10,Work
+739,24/05/19,T3,Hammer Curl,2,10,10,Work
+740,24/05/19,T3,Hammer Curl,3,10,10,Work
+741,24/05/19,T3,Tricep Pressdown,1,10,15,Work
+742,24/05/19,T3,Tricep Pressdown,2,10,15,Work
+743,24/05/19,T3,Tricep Pressdown,3,10,15,Work
