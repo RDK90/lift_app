@@ -5,6 +5,7 @@ services:
 
 before_script:
   - docker-compose up --build -d
+  - python port_data.py
 
 script:
   - python manage.py test
