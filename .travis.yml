@@ -5,8 +5,10 @@ services:
 
 before_script:
   - docker-compose up --build -d
-
-script:
+  - docker exec -it django bash
   - python manage.py makemigrations
   - python manage.py migrate
+
+script:
+  - docker exec -it django bash
   - python manage.py test
