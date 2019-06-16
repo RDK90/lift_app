@@ -12,4 +12,4 @@ class Training(models.Model):
     rep_category = models.CharField(max_length=10)
 
     def __str__(self):
-        return self.date
+        return str(self.date)
