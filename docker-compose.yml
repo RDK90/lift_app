@@ -1,6 +1,14 @@
 version: '3'
 
 services:
+  db:
+    image: postgres
+    container_name: postgres
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - internal
+    
   web:
     restart: always
     build: .
@@ -12,11 +20,12 @@ services:
       - "8000:8000"
     depends_on:
       - db
-  db:
-    image: postgres
-    container_name: postgres
-    volumes:
-      - db-data:/var/lib/postgresql/data
+    networks:
+      - internal
 
 volumes:
   db-data:
+
+networks:
+  internal:
+    driver: bridge
