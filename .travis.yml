@@ -3,10 +3,13 @@ language: python
 services:
   - docker
 
-before_script:
-  - docker-compose up --build
+install:
+  - docker-compose up --build -d
 
-script:
+before_script:
+  - /bin/bash -c "sleep 5;"
   - docker exec -it django python manage.py makemigrations
   - docker exec -it django python manage.py migrate
+
+script:
   - docker exec -it django python manage.py test
