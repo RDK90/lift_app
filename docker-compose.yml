@@ -13,7 +13,6 @@ services:
     restart: always
     build: .
     container_name: django
-    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
@@ -24,7 +23,8 @@ services:
       - internal
     command: >
       /bin/bash -c "
-        sleep 5;"
+        sleep 5;
+      python manage.py runserver 0.0.0.0:8000;"
 
 volumes:
   db-data:

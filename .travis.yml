@@ -4,7 +4,7 @@ services:
   - docker
 
 before_script:
-  - docker-compose up --build
+  - docker-compose up --build -d
 
 script:
   - docker exec -it django python manage.py makemigrations
