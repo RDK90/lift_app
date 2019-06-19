@@ -9,8 +9,11 @@ postgresup = False
 while num_of_tries < limit:
     try:
         postgres = client.containers.get('postgres')
+        print(postgres.status())
         postgres_logs = postgres.logs(tail=1)
+        print(str(postgres_logs))
         message = str(postgres_logs).split("LOG:  ")
+        print(message)
         if message[1] == check_message:
             print("Postgres is ready")
             postgresup = True
