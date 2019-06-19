@@ -4,10 +4,11 @@ services:
   - docker
 
 install:
+  - python -m pip install docker
   - docker-compose up --build -d
 
 before_script:
-  - /bin/bash -c "sleep 5;"
+  - python postgres_monitor.py
   - docker exec -it django python manage.py makemigrations
   - docker exec -it django python manage.py migrate
 
