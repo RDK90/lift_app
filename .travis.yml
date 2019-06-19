@@ -4,6 +4,7 @@ services:
   - docker
 
 install:
+  - python -m pip install docker
   - docker-compose up --build -d
 
 before_script:
