@@ -1,7 +1,13 @@
-from rest_framework import viewsets
+from rest_framework.generics import get_object_or_404
+from rest_framework.response import Response
+from rest_framework.views import APIView
 from .serializers import TrainingSerializer
+
 from .models import Training
 
-class TrainingViewSet(viewsets.ModelViewSet):
-    queryset = Training.objects.all()
-    serializer_class = TrainingSerializer
+class TrainingView(APIView):
+    def get(self, request):
+        workouts = Training.objects.all()
+        training_serializer = TrainingSerializer(workouts, many=True)
+        return Response({"workouts": training_serializer.data})
+
