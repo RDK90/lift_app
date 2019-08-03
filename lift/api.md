@@ -61,13 +61,55 @@ These APIs are the endpoints to access the data from your training logs.
     }
 ]
 ```
-### Post a new workout
+### Workouts by ID
 
 **Definition**
 
-`POST /workouts`
+`GET /workouts/{workout_id}`
 
-**Arguments**
+**URL Parameters**
+
+- `"workout_id":string` Date of workout in format (ddmmyy)
+
+**Response**
+- `200 OK` on success
+
+```json
+[
+    {
+        "date": "25/03/19",
+        "workout":[
+            {
+                "tier": "T1",
+                "exercise": "Low Bar Squat",
+                "set": 1,
+                "weight": 20,
+                "repititions": 8,
+                "repitition_category": "Warm up"
+            },
+            {
+                "tier": "T1",
+                "exercise": "Low Bar Squat",
+                "set": 2,
+                "weight": 70,
+                "repititions": 4,
+                "repitition_category": "Warm up"
+            }
+        ]
+    }
+]
+```
+
+
+**Definition**
+
+`POST /workouts/{workout_id}`
+
+**URL Parameters**
+
+- `"workout_id":string` Date of workout in format (ddmmyy)
+
+**Body Parameters**
 
 - `"date":string` Date of workout
 - `"tier":string` Tier of exercise (T1, T2, T3...etc)
@@ -105,4 +147,5 @@ If a workout is added with the same date as an existing entry, the previous work
             }
         ]
     }
+]
 ```
