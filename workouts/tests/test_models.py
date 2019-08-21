@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import Training
+from workouts.models import Training
 from datetime import datetime
 # Create your tests here.
 class ModelsTest(TestCase):

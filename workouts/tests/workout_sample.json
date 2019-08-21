@@ -1,0 +1,7422 @@
+[
+    {
+        "id": 2,
+        "date": "2019-03-25",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 3,
+        "date": "2019-03-25",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 4,
+        "date": "2019-03-25",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 5,
+        "date": "2019-03-25",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 6,
+        "date": "2019-03-25",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 10,
+        "weight": 110,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 7,
+        "date": "2019-03-25",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Barbell Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 8,
+        "date": "2019-03-25",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Barbell Bench",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 9,
+        "date": "2019-03-25",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Barbell Bench",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 10,
+        "date": "2019-03-25",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Barbell Bench",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 11,
+        "date": "2019-03-25",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Barbell Bench",
+        "set_number": 5,
+        "reps": 12,
+        "weight": 50,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 12,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 13,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 14,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 15,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 16,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 120,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 17,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Leg Extension",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 18,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Leg Extension",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 19,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Leg Extension",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 30,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 20,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Bulgarian Split Squats",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 21,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Bulgarian Split Squats",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 22,
+        "date": "2019-03-25",
+        "exercise_category": "T3",
+        "exercise": "Bulgarian Split Squats",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 23,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 24,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 25,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 65,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 26,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 27,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 28,
+        "date": "2019-03-26",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 5,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 29,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 30,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 31,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 32,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 33,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 34,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 35,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 36,
+        "date": "2019-03-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 8,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 37,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 38,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 39,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 40,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 41,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 5,
+        "reps": 10,
+        "weight": 60,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 42,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Incline Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 43,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Incline Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 44,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Incline Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 45,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Incline Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 46,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Incline Bench",
+        "set_number": 5,
+        "reps": 10,
+        "weight": 22.5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 47,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "Work"
+    },
+    {
+        "id": 48,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "Work"
+    },
+    {
+        "id": 49,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 50,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Russian Twists",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 8,
+        "rep_category": "Work"
+    },
+    {
+        "id": 51,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Russian Twists",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 52,
+        "date": "2019-03-26",
+        "exercise_category": "T3",
+        "exercise": "Russian Twists",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 53,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 54,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 55,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 56,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 57,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 58,
+        "date": "2019-03-28",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 6,
+        "weight": 125,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 59,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 60,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 61,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 62,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 63,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 64,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 65,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 66,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 8,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 67,
+        "date": "2019-03-28",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 9,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 68,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 55,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 69,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 70,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 71,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 72,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 73,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 74,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 75,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 76,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 77,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 78,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "KB Rows",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 79,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "KB Rows",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 80,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "KB Rows",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 81,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 82,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 83,
+        "date": "2019-03-28",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 84,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 85,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 86,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 65,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 87,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 88,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 89,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 90,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 91,
+        "date": "2019-04-08",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 8,
+        "reps": 4,
+        "weight": 75,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 92,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 93,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 94,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 95,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 96,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 97,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 98,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 99,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 100,
+        "date": "2019-04-08",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 9,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 101,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 20,
+        "rep_category": "Warm Up"
+    },
+    {
+        "id": 102,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 103,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 104,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 105,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 106,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 6,
+        "reps": 7,
+        "weight": 45,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 107,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 108,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 109,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 42.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 110,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 42.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 111,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 5,
+        "reps": 10,
+        "weight": 42.5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 112,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 113,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 114,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 115,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 116,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 117,
+        "date": "2019-04-08",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 118,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 119,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 120,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 121,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 110,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 122,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 123,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 124,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 125,
+        "date": "2019-04-09",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 8,
+        "reps": 5,
+        "weight": 120,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 126,
+        "date": "2019-04-09",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 127,
+        "date": "2019-04-09",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 128,
+        "date": "2019-04-09",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 129,
+        "date": "2019-04-09",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 55,
+        "rep_category": "Work"
+    },
+    {
+        "id": 130,
+        "date": "2019-04-09",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 5,
+        "reps": 15,
+        "weight": 55,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 131,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 132,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 133,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 134,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 135,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 136,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 30,
+        "rep_category": "Warmup"
+    },
+    {
+        "id": 137,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 138,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 139,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 140,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 100,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 141,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "Work"
+    },
+    {
+        "id": 142,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 143,
+        "date": "2019-04-09",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 144,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 145,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 146,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 147,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 148,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 149,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 150,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 151,
+        "date": "2019-04-11",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 6,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 152,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 153,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 154,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 155,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 156,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 157,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 158,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 159,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 160,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 9,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 161,
+        "date": "2019-04-11",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 10,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 162,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 163,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 164,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 165,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 166,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 167,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Inclince DB Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 168,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Inclince DB Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 169,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Inclince DB Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 170,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Inclince DB Bench",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 27.5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 171,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "DB Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 172,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "DB Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 173,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "DB Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 174,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "DB Row",
+        "set_number": 4,
+        "reps": 12,
+        "weight": 25,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 175,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "Work"
+    },
+    {
+        "id": 176,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 0,
+        "rep_category": "Work"
+    },
+    {
+        "id": 177,
+        "date": "2019-04-11",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 3,
+        "reps": 18,
+        "weight": 0,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 178,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 179,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 180,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 181,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 135,
+        "rep_category": "Work"
+    },
+    {
+        "id": 182,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 135,
+        "rep_category": "Work"
+    },
+    {
+        "id": 183,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 135,
+        "rep_category": "Work"
+    },
+    {
+        "id": 184,
+        "date": "2019-04-12",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 6,
+        "weight": 135,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 185,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 186,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 187,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 188,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 189,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 190,
+        "date": "2019-04-12",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 191,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 192,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 193,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 194,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 195,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 196,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 197,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 198,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 199,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 200,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 201,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 202,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 203,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 204,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 205,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 206,
+        "date": "2019-04-12",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 207,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 208,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 209,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 210,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 110,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 211,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 212,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 213,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 214,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 215,
+        "date": "2019-04-15",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 9,
+        "reps": 5,
+        "weight": 125,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 216,
+        "date": "2019-04-15",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 217,
+        "date": "2019-04-15",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 218,
+        "date": "2019-04-15",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 219,
+        "date": "2019-04-15",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 4,
+        "reps": 5,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 220,
+        "date": "2019-04-15",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 5,
+        "reps": 5,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 221,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 222,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 223,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 224,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 225,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 120,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 226,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 227,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 228,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 229,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 230,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 90,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 231,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 232,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 233,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 30,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 234,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 235,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 236,
+        "date": "2019-04-15",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hypers",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 237,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 238,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 50,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 239,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 240,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 241,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 242,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 243,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 244,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 245,
+        "date": "2019-04-16",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 9,
+        "reps": 4,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 246,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 1,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 247,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 248,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 249,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 250,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 251,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 252,
+        "date": "2019-04-16",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 125,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 253,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 254,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 255,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 256,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 257,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 258,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 6,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 259,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 260,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 261,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 262,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 263,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 5,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 264,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 265,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 266,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 3,
+        "reps": 15,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 267,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 268,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 269,
+        "date": "2019-04-16",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 270,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 271,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 50,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 272,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 273,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 274,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 275,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 276,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 277,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 278,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 9,
+        "reps": 2,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 279,
+        "date": "2019-04-18",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 10,
+        "reps": 3,
+        "weight": 85,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 280,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 281,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 282,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 283,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 284,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 285,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 286,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 287,
+        "date": "2019-04-18",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 8,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 288,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 289,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 290,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 291,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 292,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 293,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 294,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 295,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 296,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 27.5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 297,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 298,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 299,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 27.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 300,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 27.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 301,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Fly",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 302,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Fly",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 303,
+        "date": "2019-04-18",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Fly",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 304,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 2,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 305,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 306,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 120,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 307,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 140,
+        "rep_category": "Work"
+    },
+    {
+        "id": 308,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 309,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 310,
+        "date": "2019-04-20",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 155,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 311,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 312,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 313,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 314,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 315,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 316,
+        "date": "2019-04-20",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 6,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 317,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 318,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 319,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 320,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 321,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 70,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 322,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 323,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 35,
+        "rep_category": "Work"
+    },
+    {
+        "id": 324,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 325,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 326,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Neutral Lat Pulldown",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 327,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Facepull",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 328,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Facepull",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 329,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Facepull",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 50,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 330,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 331,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 332,
+        "date": "2019-04-20",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 3,
+        "reps": 15,
+        "weight": 15,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 333,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 334,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 335,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 336,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 337,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 338,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 339,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 340,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 341,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 9,
+        "reps": 1,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 342,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 10,
+        "reps": 1,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 343,
+        "date": "2019-04-23",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 11,
+        "reps": 5,
+        "weight": 125,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 344,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 345,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 346,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 347,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 4,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 348,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 5,
+        "reps": 5,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 349,
+        "date": "2019-04-23",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 6,
+        "reps": 5,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 350,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 351,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 352,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 353,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Sumo Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 354,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 355,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 356,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 357,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 4,
+        "reps": 12,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 358,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 359,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 360,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Leg Extensions",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 361,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 362,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 363,
+        "date": "2019-04-23",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 364,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 365,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 366,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 65,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 367,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 368,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 369,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 370,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 371,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 372,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 9,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 373,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 10,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 374,
+        "date": "2019-04-25",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 11,
+        "reps": 3,
+        "weight": 85,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 375,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 376,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 377,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 378,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 379,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 380,
+        "date": "2019-04-25",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 381,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 382,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 383,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 384,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 70,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 385,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 386,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 387,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 388,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 389,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 390,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 27.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 391,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 27.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 392,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 393,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 35,
+        "rep_category": "Work"
+    },
+    {
+        "id": 394,
+        "date": "2019-04-25",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 3,
+        "reps": 15,
+        "weight": 40,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 395,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 396,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 397,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 130,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 398,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 140,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 399,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 1,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 400,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 1,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 401,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 155,
+        "rep_category": "Work"
+    },
+    {
+        "id": 402,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 160,
+        "rep_category": "Work"
+    },
+    {
+        "id": 403,
+        "date": "2019-04-26",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 9,
+        "reps": 2,
+        "weight": 160,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 404,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 405,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 406,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 407,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 408,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 409,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 410,
+        "date": "2019-04-26",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 7,
+        "reps": 5,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 411,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 412,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 413,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 414,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 415,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 416,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 417,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 418,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 419,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 420,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 421,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 422,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 15,
+        "rep_category": "Work"
+    },
+    {
+        "id": 423,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 15,
+        "rep_category": "Work"
+    },
+    {
+        "id": 424,
+        "date": "2019-04-26",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 3,
+        "reps": 15,
+        "weight": 15,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 425,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 426,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 427,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 65,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 428,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 429,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 430,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 6,
+        "reps": 1,
+        "weight": 77.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 431,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 77.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 432,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 433,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 9,
+        "reps": 1,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 434,
+        "date": "2019-04-28",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 10,
+        "reps": 5,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 435,
+        "date": "2019-04-28",
+        "exercise_category": "T2",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 436,
+        "date": "2019-04-28",
+        "exercise_category": "T2",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 437,
+        "date": "2019-04-28",
+        "exercise_category": "T2",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 438,
+        "date": "2019-04-28",
+        "exercise_category": "T2",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 4,
+        "reps": 5,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 439,
+        "date": "2019-04-28",
+        "exercise_category": "T2",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 5,
+        "reps": 5,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 440,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 441,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 442,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 443,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 444,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 445,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Supinated Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 446,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Supinated Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 55,
+        "rep_category": "Work"
+    },
+    {
+        "id": 447,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Supinated Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 448,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Supinated Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 65,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 449,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 450,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 451,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 452,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 1,
+        "reps": 0,
+        "weight": 12,
+        "rep_category": "Work"
+    },
+    {
+        "id": 453,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 2,
+        "reps": 0,
+        "weight": 12,
+        "rep_category": "Work"
+    },
+    {
+        "id": 454,
+        "date": "2019-04-28",
+        "exercise_category": "T3",
+        "exercise": "Dips",
+        "set_number": 3,
+        "reps": 0,
+        "weight": 15,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 455,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 456,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 457,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 458,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 110,
+        "rep_category": "Work"
+    },
+    {
+        "id": 459,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 460,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 1,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 461,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 462,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 463,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 9,
+        "reps": 1,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 464,
+        "date": "2019-04-30",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 10,
+        "reps": 6,
+        "weight": 125,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 465,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 466,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 467,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 468,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 469,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 470,
+        "date": "2019-04-30",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench Press",
+        "set_number": 6,
+        "reps": 4,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 471,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Good Morning",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 472,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Good Morning",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 473,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Good Morning",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 55,
+        "rep_category": "Work"
+    },
+    {
+        "id": 474,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Good Morning",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 475,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Good Morning",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 476,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 477,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 478,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 479,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 480,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 481,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 482,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 483,
+        "date": "2019-04-30",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 484,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 485,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 486,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 487,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 488,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 489,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 490,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 491,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 87.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 492,
+        "date": "2019-05-02",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 9,
+        "reps": 5,
+        "weight": 87.5,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 493,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 494,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 495,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 496,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 497,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 498,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 499,
+        "date": "2019-05-02",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 500,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 501,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 502,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 503,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 504,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 505,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 506,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 507,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 508,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 509,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 510,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 511,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 512,
+        "date": "2019-05-02",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 513,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 514,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 515,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 516,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 140,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 517,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 518,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 155,
+        "rep_category": "Work"
+    },
+    {
+        "id": 519,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 160,
+        "rep_category": "Work"
+    },
+    {
+        "id": 520,
+        "date": "2019-05-03",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 165,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 521,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 522,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 523,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 524,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 525,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 526,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 4,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 527,
+        "date": "2019-05-03",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 7,
+        "reps": 4,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 528,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Pendaly Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 529,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Pendaly Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 530,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Pendaly Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 531,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Pendaly Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 532,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Pendaly Row",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 533,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 534,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 535,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 536,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 537,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "45 Degree Back Raise",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 538,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "45 Degree Back Raise",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 539,
+        "date": "2019-05-03",
+        "exercise_category": "T3",
+        "exercise": "45 Degree Back Raise",
+        "set_number": 3,
+        "reps": 15,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 540,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 541,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 542,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 543,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 544,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 545,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 125,
+        "rep_category": "Work"
+    },
+    {
+        "id": 546,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 130,
+        "rep_category": "Work"
+    },
+    {
+        "id": 547,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 130,
+        "rep_category": "Work"
+    },
+    {
+        "id": 548,
+        "date": "2019-05-07",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 9,
+        "reps": 3,
+        "weight": 135,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 549,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 550,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 551,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 552,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 553,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 554,
+        "date": "2019-05-07",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 555,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Stiff Leg Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 556,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Stiff Leg Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 557,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Stiff Leg Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 558,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Stiff Leg Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 559,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Leg Press",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 560,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Leg Press",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 561,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Leg Press",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 562,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Leg Press",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 563,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 1,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 564,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 2,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 565,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 3,
+        "reps": 12,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 566,
+        "date": "2019-05-07",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 567,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 568,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 569,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 570,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 571,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 572,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 85,
+        "rep_category": "Work"
+    },
+    {
+        "id": 573,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 87.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 574,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 575,
+        "date": "2019-05-08",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 9,
+        "reps": 3,
+        "weight": 90,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 576,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 577,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 578,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 579,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 580,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 581,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 582,
+        "date": "2019-05-08",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 583,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Incline Barbell Bench",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 584,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Incline Barbell Bench",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 585,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Incline Barbell Bench",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 55,
+        "rep_category": "Work"
+    },
+    {
+        "id": 586,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Incline Barbell Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 55,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 587,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 588,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 589,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 590,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Close Grip Dumbbell Bench",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 27.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 591,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 30,
+        "rep_category": "Work"
+    },
+    {
+        "id": 592,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 35,
+        "rep_category": "Work"
+    },
+    {
+        "id": 593,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 594,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 595,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 596,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 597,
+        "date": "2019-05-08",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 598,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 599,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 110,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 600,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 140,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 601,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 150,
+        "rep_category": "Work"
+    },
+    {
+        "id": 602,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 155,
+        "rep_category": "Work"
+    },
+    {
+        "id": 603,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 1,
+        "weight": 160,
+        "rep_category": "Work"
+    },
+    {
+        "id": 604,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 1,
+        "weight": 165,
+        "rep_category": "Work"
+    },
+    {
+        "id": 605,
+        "date": "2019-05-10",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 8,
+        "reps": 1,
+        "weight": 170,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 606,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 607,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 608,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 609,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 610,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 611,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 612,
+        "date": "2019-05-10",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 613,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 614,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 615,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 616,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 617,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 618,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 619,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 620,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 621,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Lat Pulldown",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 55,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 622,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 623,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 624,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 625,
+        "date": "2019-05-10",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 626,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 1,
+        "reps": 3,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 627,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 628,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 629,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 110,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 630,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 631,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 120,
+        "rep_category": "Work"
+    },
+    {
+        "id": 632,
+        "date": "2019-05-20",
+        "exercise_category": "T1",
+        "exercise": "Low Bar Squat",
+        "set_number": 7,
+        "reps": 8,
+        "weight": 120,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 633,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 634,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 2,
+        "reps": 4,
+        "weight": 50,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 635,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 3,
+        "reps": 4,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 636,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 4,
+        "reps": 4,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 637,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 5,
+        "reps": 4,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 638,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 6,
+        "reps": 4,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 639,
+        "date": "2019-05-20",
+        "exercise_category": "T2",
+        "exercise": "Close Grip Bench",
+        "set_number": 7,
+        "reps": 4,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 640,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 641,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 642,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 643,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Stiff Legged Deadlift",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 644,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 645,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 646,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 647,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Belt Squat",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 648,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 649,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 650,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 651,
+        "date": "2019-05-20",
+        "exercise_category": "T3",
+        "exercise": "Reverse Hyper",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 652,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 653,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 50,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 654,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 655,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 656,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 657,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 658,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Work"
+    },
+    {
+        "id": 659,
+        "date": "2019-05-21",
+        "exercise_category": "T1",
+        "exercise": "T&G Bench",
+        "set_number": 8,
+        "reps": 5,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 660,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 661,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 662,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 663,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 90,
+        "rep_category": "Work"
+    },
+    {
+        "id": 664,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 665,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 95,
+        "rep_category": "Work"
+    },
+    {
+        "id": 666,
+        "date": "2019-05-21",
+        "exercise_category": "T2",
+        "exercise": "Pause Squat",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 667,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 668,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 669,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 670,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 671,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Floor Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 672,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Press",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 673,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Press",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 674,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Press",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 675,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Press",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 676,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Incline Dumbbell Press",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 677,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 22.5,
+        "rep_category": "Work"
+    },
+    {
+        "id": 678,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 679,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 680,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Dumbbell Row",
+        "set_number": 4,
+        "reps": 10,
+        "weight": 25,
+        "rep_category": "Work"
+    },
+    {
+        "id": 681,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 682,
+        "date": "2019-05-21",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pushdown",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 683,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 684,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 685,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 686,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 130,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 687,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 145,
+        "rep_category": "Work"
+    },
+    {
+        "id": 688,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 145,
+        "rep_category": "Work"
+    },
+    {
+        "id": 689,
+        "date": "2019-05-23",
+        "exercise_category": "T1",
+        "exercise": "Deadlift",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 150,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 690,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 40,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 691,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 80,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 692,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 693,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 694,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 695,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 696,
+        "date": "2019-05-23",
+        "exercise_category": "T2",
+        "exercise": "High Bar Squat",
+        "set_number": 7,
+        "reps": 4,
+        "weight": 100,
+        "rep_category": "Work"
+    },
+    {
+        "id": 697,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 60,
+        "rep_category": "Work"
+    },
+    {
+        "id": 698,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 699,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 65,
+        "rep_category": "Work"
+    },
+    {
+        "id": 700,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 701,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Pendlay Row",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 70,
+        "rep_category": "Work"
+    },
+    {
+        "id": 702,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 20,
+        "rep_category": "Work"
+    },
+    {
+        "id": 703,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 704,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 705,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Kettlebell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 706,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 707,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 708,
+        "date": "2019-05-23",
+        "exercise_category": "T3",
+        "exercise": "Back Raise",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 24,
+        "rep_category": "Work"
+    },
+    {
+        "id": 709,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 710,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 2,
+        "reps": 3,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 711,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 3,
+        "reps": 3,
+        "weight": 65,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 712,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 4,
+        "reps": 3,
+        "weight": 70,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 713,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 5,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 714,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 715,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 7,
+        "reps": 3,
+        "weight": 75,
+        "rep_category": "Work"
+    },
+    {
+        "id": 716,
+        "date": "2019-05-24",
+        "exercise_category": "T1",
+        "exercise": "Pause Bench",
+        "set_number": 8,
+        "reps": 3,
+        "weight": 80,
+        "rep_category": "AMRAP"
+    },
+    {
+        "id": 717,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 1,
+        "reps": 4,
+        "weight": 60,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 718,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 2,
+        "reps": 2,
+        "weight": 100,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 719,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 3,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 720,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 4,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 721,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 5,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 722,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 6,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 723,
+        "date": "2019-05-24",
+        "exercise_category": "T2",
+        "exercise": "Deficit Deadlift",
+        "set_number": 7,
+        "reps": 2,
+        "weight": 115,
+        "rep_category": "Work"
+    },
+    {
+        "id": 724,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 1,
+        "reps": 6,
+        "weight": 20,
+        "rep_category": "Warm up"
+    },
+    {
+        "id": 725,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 2,
+        "reps": 6,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 726,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 3,
+        "reps": 6,
+        "weight": 45,
+        "rep_category": "Work"
+    },
+    {
+        "id": 727,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 4,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 728,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 5,
+        "reps": 6,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 729,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Overhead Press",
+        "set_number": 6,
+        "reps": 3,
+        "weight": 50,
+        "rep_category": "Work"
+    },
+    {
+        "id": 730,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 1,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 731,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 2,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 732,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 3,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 733,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 4,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 734,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Lying Barbell Row",
+        "set_number": 5,
+        "reps": 8,
+        "weight": 40,
+        "rep_category": "Work"
+    },
+    {
+        "id": 735,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 1,
+        "reps": 5,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 736,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 2,
+        "reps": 5,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 737,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "L-Raise",
+        "set_number": 3,
+        "reps": 5,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 738,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 739,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 740,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Hammer Curl",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 10,
+        "rep_category": "Work"
+    },
+    {
+        "id": 741,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pressdown",
+        "set_number": 1,
+        "reps": 10,
+        "weight": 15,
+        "rep_category": "Work"
+    },
+    {
+        "id": 742,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pressdown",
+        "set_number": 2,
+        "reps": 10,
+        "weight": 15,
+        "rep_category": "Work"
+    },
+    {
+        "id": 743,
+        "date": "2019-05-24",
+        "exercise_category": "T3",
+        "exercise": "Tricep Pressdown",
+        "set_number": 3,
+        "reps": 10,
+        "weight": 15,
+        "rep_category": "Work"
+    }
+]
