@@ -11,12 +11,12 @@ def get_all(request):
     if request.method == "GET":
         workouts = Training.objects.all()
         training_serializer = TrainingSerializer(workouts, many=True)
-        return Response({"workouts": training_serializer.data})
+        return Response(training_serializer.data)
 
 @api_view(['GET'])
 def get_by_id(request, id):
     if request.method == "GET":
         workouts = Training.objects.filter(id=id).values()
         training_serializer = TrainingSerializer(workouts, many=True)
-        return Response({"workouts": training_serializer.data})
+        return Response(training_serializer.data)
 
