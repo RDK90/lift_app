@@ -1,0 +1,12 @@
+component_depth: 3
+languages:
+- name: python
+  production:
+    exclude:
+      - .pytest_cache
+      - .*/__pycache__*
+      - .*/migrations*
+  test:
+    include:
+      - .test_models.py
+      - .test_views.py
