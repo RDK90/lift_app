@@ -5,3 +5,4 @@ pytest
 sqlparse
 djangorestframework
 pytest-django
+pytest-cov
