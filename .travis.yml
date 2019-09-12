@@ -13,4 +13,4 @@ before_script:
   - docker exec -it django python manage.py migrate
 
 script:
-  - docker exec -it django python manage.py test
+  - docker exec -it django pytest
