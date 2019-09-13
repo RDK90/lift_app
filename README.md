@@ -52,9 +52,17 @@ This is migrate the data from the _traininglog.csv_ file into the Postgres datab
 > localhost:8000/api/workouts
 
 ## Unit Tests
-To run the unit tests, console into the Django container and run:
+To run the unit tests, there are two main options. The first option is to use Django's built in testing framework. This can be done by logging into the Django container and running:
 ```
 python manage.py test
+```
+The second option is to use Pytest. Pytest has been installed as part of the project and can give more in-depth statistics including test coverage. This can be run by logging into the Django container and running:
+```
+pytest
+```
+If you would like more detailed statistics about test coverage, pytest-cov has also been included. This will give a more detailed breakdown of the unit test coverage per Python file in the project. This can be run by logging into the Django container and running:
+```
+pytest --cov
 ```
 This will run any of the tests in the following folder:
 > lift/workouts/tests
