@@ -41,3 +41,13 @@ class GetWorkoutsTest(TestCase):
         serializer = TrainingSerializer(workout_data, many=True)
         self.assertEqual(response.data['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_invalid_workouts_by_id(self):
+        response = client.get(reverse('workouts:id_workouts', kwargs={'workout_id':'22032019'}))
+        workout_data = Training.objects.filter(date="2019-03-22").values()
+        serializer = TrainingSerializer(workout_data, many=True)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+    
+    def test_get_invalid_datetype_workouts_by_id(self):
+        response = client.get(reverse('workouts:id_workouts', kwargs={'workout_id':'999'}))
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
