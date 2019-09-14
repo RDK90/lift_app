@@ -8,7 +8,7 @@ from workouts.serializers import TrainingSerializer
 # initialize the APIClient app
 client = Client()
 
-class WorkoutsTest(TestCase):
+class GetWorkoutsTest(TestCase):
 
     def setUp(self):
         Training.objects.create(
@@ -28,16 +28,16 @@ class WorkoutsTest(TestCase):
             set_number=4, reps=4, weight=120, rep_category="Work"
         )
 
-    def test_get_all_worktouts(self):
+    def test_get_all_workouts(self):
         response = client.get(reverse('workouts:all_workouts'))
         workout_data = Training.objects.all()
         serializer = TrainingSerializer(workout_data, many=True)
         self.assertEqual(response.data, serializer.data)
         self.assertEqual(response.status_code, status.HTTP_200_OK)
     
-    def test_get_all_worktouts(self):
-        response = client.get(reverse('workouts:id_workouts', kwargs={'id':2}))
-        workout_data = Training.objects.filter(id=2)
+    def test_get_workouts_by_id(self):
+        response = client.get(reverse('workouts:id_workouts', kwargs={'workout_id':'25032019'}))
+        workout_data = Training.objects.filter(date="2019-03-25").values()
         serializer = TrainingSerializer(workout_data, many=True)
-        self.assertEqual(response.data, serializer.data)
+        self.assertEqual(response.data['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
