@@ -69,10 +69,10 @@ These APIs are the endpoints to access the data from your training logs.
 
 **URL Parameters**
 
-- `"workout_id":string` Date of workout in format (ddmmyy)
+- `"workout_id":string` Date of workout in format (ddmmyyyy)
 
 **Response**
-- `200 OK` on success
+- `200 OK` - on success
 
 ```json
 [
@@ -99,7 +99,18 @@ These APIs are the endpoints to access the data from your training logs.
     }
 ]
 ```
-
+- `400 BAD REQUEST` - with invalid date format
+```json
+{
+    "Error message": "Invalid date -9-99 found. Correct date format is DDMMYYY"
+}
+```
+- `404 NOT FOUND` - with no training data found for given date
+```json
+{
+    "Error message": "No workouts for date 2019-03-22 found"
+}
+```
 
 **Definition**
 
