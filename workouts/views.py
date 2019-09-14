@@ -14,9 +14,16 @@ def get_all(request):
         return Response(training_serializer.data)
 
 @api_view(['GET'])
-def get_by_id(request, id):
+def get_by_id(request, workout_id):
     if request.method == "GET":
-        workouts = Training.objects.filter(id=id).values()
+        year = workout_id[4:8]
+        month = workout_id[2:4]
+        day = workout_id[0:2]
+        date = "{}-{}-{}".format(year, month, day)
+        workouts = Training.objects.filter(date=date).values()
         training_serializer = TrainingSerializer(workouts, many=True)
-        return Response(training_serializer.data)
+        for workouts in training_serializer.data:
+            workouts.pop("date")
+        response_data = {"date":date, "workout": training_serializer.data}
+        return Response(response_data)
 
