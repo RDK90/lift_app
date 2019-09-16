@@ -20,7 +20,17 @@ def get_all(request):
     if request.method == "GET":
         workouts = Training.objects.all()
         training_serializer = TrainingSerializer(workouts, many=True)
-        return Response(training_serializer.data)
+        response_data = [{"date":"", "workout":[]}]
+        index = 0
+        for workout in training_serializer.data:
+            date = workout.pop("date")
+            if response_data[index]["date"] == "" or response_data[index]["date"] != date:
+                response_data.append({"date":date, "workout":[workout]})
+                index = index + 1
+            else:
+                response_data[index]["workout"].append(workout)
+        response_data.pop(0)
+        return Response(response_data)
 
 @api_view(['GET'])
 def get_by_id(request, workout_id):
