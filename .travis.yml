@@ -17,6 +17,6 @@ script:
 
 deploy:
   provider: script
-  script: python build_lift_container
+  script: python build_lift_container.py
   on:
     branch: push_docker_image
