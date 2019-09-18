@@ -8,3 +8,15 @@ __pycache__/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+lift/__pycache__/settings.cpython-37.pyc
+lift/__pycache__/__init__.cpython-37.pyc
+lift/__pycache__/urls.cpython-37.pyc
+lift/__pycache__/wsgi.cpython-37.pyc
+workouts/__pycache__/admin.cpython-37.pyc
+workouts/__pycache__/models.cpython-37.pyc
+workouts/migrations/__pycache__/0001_initial.cpython-37.pyc
+workouts/tests/__pycache__/__init__.cpython-37.pyc
+workouts/tests/__pycache__/test_models.cpython-37-pytest-5.0.0.pyc
+workouts/tests/__pycache__/test_models.cpython-37.pyc
+workouts/tests/__pycache__/test_views.cpython-37-pytest-5.0.0.pyc
+workouts/tests/__pycache__/test_views.cpython-37.pyc
