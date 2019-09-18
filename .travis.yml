@@ -14,3 +14,9 @@ before_script:
 
 script:
   - docker exec -it django pytest
+
+deploy:
+  provider: script
+  script: python build_lift_container
+  on:
+    branch: push_docker_image
