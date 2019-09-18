@@ -14,3 +14,9 @@ before_script:
 
 script:
   - docker exec -it django pytest
+
+deploy:
+  provider: script
+  script: python build_lift_container.py --repo $docker_repo --user $docker_username --passwd $docker_password
+  on:
+    branch: release
