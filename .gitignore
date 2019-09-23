@@ -20,3 +20,6 @@ workouts/tests/__pycache__/test_models.cpython-37-pytest-5.0.0.pyc
 workouts/tests/__pycache__/test_models.cpython-37.pyc
 workouts/tests/__pycache__/test_views.cpython-37-pytest-5.0.0.pyc
 workouts/tests/__pycache__/test_views.cpython-37.pyc
+
+#Pytest
+.coverage
