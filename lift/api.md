@@ -160,3 +160,50 @@ If a workout is added with the same date as an existing entry, the previous work
     }
 ]
 ```
+**Definition**
+
+`PUT /workouts/{workout_id}`
+
+**URL Parameters**
+
+- `"workout_id":string` Date of workout in format (ddmmyy)
+
+**Body Parameters**
+
+- `"date":string` Date of workout
+- `"tier":string` Tier of exercise (T1, T2, T3...etc)
+- `"exercise":string` Name of exercise performed
+- `"set":integer` Set number of the exercise
+- `"repititions":integer` Number of repititions performed per set
+- `"weight":float` Weight used for the exercise set
+- `"repitition_category":string` Type of set (Warm up, work, AMRAP...etc)
+
+**Response**
+- `204 No Content` on success
+
+```json
+[
+    {
+        "date": "25/03/19",
+        "workout":[
+            {
+                "tier": "T1",
+                "exercise": "Low Bar Squat",
+                "set": 1,
+                "weight": 20,
+                "repititions": 8,
+                "repitition_category": "Warm up"
+            },
+            {
+                "tier": "T1",
+                "exercise": "Low Bar Squat",
+                "set": 2,
+                "weight": 70,
+                "repititions": 4,
+                "repitition_category": "Warm up"
+            }
+        ]
+    }
+]
+```
+
