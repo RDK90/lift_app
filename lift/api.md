@@ -179,7 +179,7 @@ If a workout is added with the same date as an existing entry, the previous work
 - `"repitition_category":string` Type of set (Warm up, work, AMRAP...etc)
 
 **Response**
-- `204 No Content` on success
+- `201 Created` on success
 
 ```json
 [
@@ -206,4 +206,17 @@ If a workout is added with the same date as an existing entry, the previous work
     }
 ]
 ```
+**Definition**
 
+`DELETE /workouts/{workout_id}`
+
+**URL Parameters**
+
+- `"workout_id":string` Date of workout in format (ddmmyy)
+
+**Body Parameters**
+
+No parameters
+
+**Response**
+- `204 No Content` on success
