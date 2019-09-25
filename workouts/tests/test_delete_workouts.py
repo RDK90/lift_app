@@ -20,14 +20,13 @@ class DeleteWorkoutsTest(TestCase):
             date="2019-09-25", exercise_category="T1", exercise="Low Bar Squat",
             set_number=1, reps=8, weight=20, rep_category="Warm up"
         )
-    @pytest.mark.skip(reason="API not built yet")
+
     def test_delete_workouts_by_id(self):
         response = client.delete(
             reverse("workouts:id_workouts", kwargs={"workout_id": self.valid_payload["date"]})
         )
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 
-    @pytest.mark.skip(reason="API not built yet")
     def test_delete_workouts_by_id(self):
         response = client.delete(
             reverse("workouts:id_workouts", kwargs={"workout_id": "999"})

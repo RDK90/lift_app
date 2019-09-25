@@ -23,14 +23,17 @@ def all_workouts(request):
         response_data.pop(0)
         return Response(response_data)
 
-@api_view(['GET', 'POST', 'PUT'])
+@api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def workouts_by_id(request, workout_id):
     date = format_date(workout_id)
+    try:
+        workouts = Training.objects.filter(date=date).values()
+    except:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
     if request.method == "GET":
         if not validate_date(date):
             content = {"Error message": "Invalid date {} found. Correct date format is DDMMYYY".format(date)}
             return Response(content, status=status.HTTP_400_BAD_REQUEST)
-        workouts = Training.objects.filter(date=date).values()
         if not workouts:
             content = {"Error message": "No workouts for date {} found".format(date)}
             return Response(content, status=status.HTTP_404_NOT_FOUND)
@@ -41,6 +44,9 @@ def workouts_by_id(request, workout_id):
             return Response({"date":date, "workout": training_serializer.data})
     if request.method == "POST" or request.method == "PUT":
         return put_post_workouts_by_id_response(request)
+    if request.method == "DELETE":
+        workouts.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
 
 
     
