@@ -8,6 +8,13 @@ from .models import Training
 
 @api_view(['GET'])
 def all_workouts(request):
+    """
+    Method:
+    Get all workouts
+
+    Endpoint:
+    GET /workouts
+    """
     if request.method == "GET":
         workouts = Training.objects.all()
         training_serializer = TrainingSerializer(workouts, many=True)
