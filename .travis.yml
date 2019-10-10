@@ -14,7 +14,7 @@ before_script:
 
 script:
   - docker exec -it django pytest --cov
-  - docker cp django:/app/$(docker exec -it django bash -c "ls -a .coverage.*" | tr -d '\r') ./ 
+  - docker cp django:code/.coverage ./
 
 after_success:
   - python -m pip install coveralls
