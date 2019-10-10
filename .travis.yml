@@ -13,7 +13,13 @@ before_script:
   - docker exec -it django python manage.py migrate
 
 script:
-  - docker exec -it django pytest
+  - docker exec -it django pytest --cov
+  - docker cp django:code/.coverage ./
+  - sed -i "s@\"/code/@\"${PWD}/@g" .coverage
+
+after_success:
+  - python -m pip install coveralls
+  - coveralls
 
 deploy:
   provider: script
