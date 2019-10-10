@@ -14,7 +14,8 @@ before_script:
 
 script:
   - docker exec -it django pytest --cov
-  - docker cp django:code/.coverage .
+  - docker cp django:code/.coverage ./
+  - sed -i "s@\"/code/@\"${PWD}/@g" .coverage
 
 after_success:
   - python -m pip install coveralls
