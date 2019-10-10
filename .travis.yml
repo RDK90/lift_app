@@ -13,7 +13,10 @@ before_script:
   - docker exec -it django python manage.py migrate
 
 script:
-  - docker exec -it django pytest
+  - docker exec -it django pytest --cov
+
+after_success:
+  - coveralls
 
 deploy:
   provider: script
