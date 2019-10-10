@@ -23,11 +23,11 @@ class DeleteWorkoutsTest(TestCase):
 
     def test_delete_workouts_by_id(self):
         response = client.delete(
-            reverse("workouts:id_workouts", kwargs={"workout_id": self.valid_payload["date"]})
+            reverse("workouts:id_workouts", kwargs={"workout_id": "16092019"})
         )
         self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 
-    def test_delete_workouts_by_id(self):
+    def test_delete_invalid_date_workouts_by_id(self):
         response = client.delete(
             reverse("workouts:id_workouts", kwargs={"workout_id": "999"})
         )
