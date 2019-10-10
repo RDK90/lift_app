@@ -14,8 +14,7 @@ before_script:
 
 script:
   - docker exec -it django pytest --cov
-  - docker cp django:code/.coverage ./
-  - coverage combine
+  - docker cp django:code/.coverage .
 
 after_success:
   - python -m pip install coveralls
