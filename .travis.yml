@@ -17,7 +17,7 @@ script:
 
 after_success:
   - python -m pip install coveralls
-  - docker exec -it django coveralls
+  - coveralls
 
 deploy:
   provider: script
