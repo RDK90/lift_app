@@ -5,7 +5,7 @@ services:
 
 install:
   - python -m pip install docker
-  - docker-compose up -e COVERALLS_REPO_TOKEN="$COVERALLS_REPO_TOKEN" --build -d
+  - docker-compose up --build -d
 
 before_script:
   - python postgres_monitor.py
