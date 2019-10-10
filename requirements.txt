@@ -6,4 +6,3 @@ sqlparse
 djangorestframework
 pytest-django
 pytest-cov
-coveralls

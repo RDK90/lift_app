@@ -5,6 +5,7 @@ services:
 
 install:
   - python -m pip install docker
+  - python -m pip install coveralls
   - docker-compose up --build -d
 
 before_script:
