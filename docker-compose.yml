@@ -8,6 +8,8 @@ services:
       - db-data:/var/lib/postgresql/data
     networks:
       - internal
+    ports:
+      - "5555:5432"
     
   web:
     restart: always
