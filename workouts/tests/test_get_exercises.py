@@ -29,7 +29,7 @@ class GetExercisesTest(TestCase):
         )
 
         def test_get_exercise_by_name(self):
-            response = client.get(reverse('exercises:name_exercises'), kwargs={'ExerciseName':'Low Bar Squat'}))
+            response = client.get(reverse('exercises:name_exercises'), kwargs={'ExerciseName':'Low Bar Squat'})
             exercise_data = Training.objects.filter(exercise="Low Bar Squat").values()
             serializer = TrainingSerializer(exercise_data, many=True)
             self.assertEqual(response.data['exercise'], serializer.data[0]['exercise'])
