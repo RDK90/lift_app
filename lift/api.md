@@ -220,3 +220,44 @@ No parameters
 
 **Response**
 - `204 No Content` on success
+
+## Exercises by Name
+
+**Definition**
+
+`GET /exercises/?ExerciseName={exercise_name}`
+
+**URL Parameters** 
+
+- `"exercise_name":string` Name of exercise
+
+**Response**
+
+- `200 OK` on success
+
+```json
+[
+    {
+        "exercise": "Low Bar Squat",
+        "workout":[
+            {
+                "tier": "T1",
+                "date": "23052019",
+                "set": 1,
+                "weight": 20,
+                "repititions": 8,
+                "repitition_category": "Warm up"
+            },
+            {
+                "tier": "T1",
+                "date": "23052019",
+                "set": 2,
+                "weight": 70,
+                "repititions": 4,
+                "repitition_category": "Warm up"
+            }
+        ]
+    }
+]
+
+```
