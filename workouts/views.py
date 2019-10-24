@@ -56,6 +56,15 @@ def workouts_by_id(request, workout_id):
         workouts.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
+@api_view(['GET'])
+def exercises_by_name(request, exercise_name):
+    try:
+        workouts = Training.objects.filter(exercise=exercise_name).values()
+    except:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
+    if request.method == "GET":
+        training_serializer = TrainingSerializer(workouts, many=True)
+        return Response({"workout":training_serializer.data})
 
     
 

@@ -8,4 +8,5 @@ app_name = "workouts"
 urlpatterns = [
     path('workouts/', views.all_workouts, name='all_workouts'),
     path('workouts/<workout_id>/', views.workouts_by_id, name='id_workouts'),
+    path('exercises/<exercise_name>/', views.exercises_by_name, name="name_exercise"),
 ]
