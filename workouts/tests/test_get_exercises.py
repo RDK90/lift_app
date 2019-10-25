@@ -32,5 +32,5 @@ class GetExercisesTest(TestCase):
         response = client.get(reverse('workouts:name_exercises', kwargs={'exercise_name':'Low Bar Squat'}))
         exercise_data = Training.objects.filter(exercise="Low Bar Squat").values()
         serializer = TrainingSerializer(exercise_data, many=True)
-        self.assertEqual(response.data['workout'][0]['exercise'], serializer.data[0]['exercise'])
+        self.assertEqual(response.data['exercise'], serializer.data[0]['exercise'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)

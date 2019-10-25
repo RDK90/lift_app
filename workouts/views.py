@@ -64,7 +64,9 @@ def exercises_by_name(request, exercise_name):
         return Response(status=status.HTTP_400_BAD_REQUEST)
     if request.method == "GET":
         training_serializer = TrainingSerializer(workouts, many=True)
-        return Response({"workout":training_serializer.data})
+        for workouts in training_serializer.data:
+            workouts.pop("exercise")
+        return Response({"exercise": exercise_name, "workout":training_serializer.data})
 
     
 
