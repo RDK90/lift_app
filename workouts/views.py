@@ -58,6 +58,13 @@ def workouts_by_id(request, workout_id):
 
 @api_view(['GET'])
 def exercises_by_name(request, exercise_name):
+    """
+    Method:
+    Get exercise data per exercise
+
+    Endpoint:
+    GET /exercises/<exercise_name>/
+    """
     try:
         workouts = Training.objects.filter(exercise=exercise_name).values()
     except:
