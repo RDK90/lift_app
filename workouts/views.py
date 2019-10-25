@@ -67,10 +67,13 @@ def exercises_by_name(request, exercise_name):
     """
     try:
         workouts = Training.objects.filter(exercise=exercise_name).values()
+        training_serializer = TrainingSerializer(workouts, many=True)
+        if len(training_serializer.data) == 0:
+            content = {"Error Message: Exercise {} not found".format(exercise_name)}
+            return Response(content, status=status.HTTP_404_NOT_FOUND)
     except:
         return Response(status=status.HTTP_400_BAD_REQUEST)
     if request.method == "GET":
-        training_serializer = TrainingSerializer(workouts, many=True)
         for workouts in training_serializer.data:
             workouts.pop("exercise")
         return Response({"exercise": exercise_name, "workout":training_serializer.data})

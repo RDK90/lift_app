@@ -34,3 +34,9 @@ class GetExercisesTest(TestCase):
         serializer = TrainingSerializer(exercise_data, many=True)
         self.assertEqual(response.data['exercise'], serializer.data[0]['exercise'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_exercise_by_invalid_name(self):
+        response = client.get(reverse('workouts:name_exercises', kwargs={'exercise_name':'Unknown Exercise'}))
+        exercise_data = Training.objects.filter(exercise="Unknown Exercise").values()
+        serializer = TrainingSerializer(exercise_data, many=True)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
