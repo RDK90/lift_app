@@ -56,7 +56,7 @@ def workouts_by_id(request, workout_id):
         workouts.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-@api_view(['GET'])
+@api_view(['GET', 'PUT'])
 def exercises_by_name(request, exercise_name):
     """
     Method:
@@ -77,6 +77,8 @@ def exercises_by_name(request, exercise_name):
         for workouts in training_serializer.data:
             workouts.pop("exercise")
         return Response({"exercise": exercise_name, "workout":training_serializer.data})
+    if request.method == "PUT":
+        return put_post_exercises_by_name_response(request)
 
     
 
