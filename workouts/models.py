@@ -13,3 +13,11 @@ class Training(models.Model):
 
     def __str__(self):
         return str(self.date)
+
+class Exercises(models.Model):
+    exercise = models.CharField(max_length=80)
+    primary_exercise_body_part = models.CharField(max_length=20)
+    secondary_exercise_body_part = models.CharField(max_length=20)
+
+    def __str__(self):
+        return str(self.exercise)
