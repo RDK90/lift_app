@@ -21,3 +21,16 @@ class Exercises(models.Model):
 
     def __str__(self):
         return str(self.exercise)
+
+class Characteristics(models.Model):
+    date = models.DateField()
+    week = models.IntegerField()
+    time = models.TimeField()
+    toughness = models.IntegerField()
+    awakeness = models.IntegerField()
+    anxiety = models.IntegerField()
+    soreness = models.IntegerField()
+    enthusiasm = models.IntegerField()
+
+    def __str__(self):
+        return str(self.date)
