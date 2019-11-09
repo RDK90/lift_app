@@ -1,11 +1,18 @@
 from datetime import datetime
 from rest_framework.response import Response
-from .serializers import TrainingSerializer
+from .serializers import TrainingSerializer, CharacteristicsSerializer
 from rest_framework import status
 
 def validate_date(date):
     try:
         datetime.strptime(date, '%Y-%m-%d')
+        return True
+    except:
+        return False
+
+def validate_time(time):
+    try:
+        datetime.strptime(time, '%H:%M')
         return True
     except:
         return False
@@ -46,6 +53,10 @@ def format_exercise_data(request):
     else:
         return False
 
+def format_characteristics_data(request):
+    request.data['date'] = format_date(request.data.get('date'))
+    return [request.data]
+
 def put_post_workouts_by_id_response(request):
     data = format_data(request)
     training_serializer = TrainingSerializer(data=data, many=True)
@@ -62,3 +73,13 @@ def put_post_exercises_by_name_response(request):
             training_serializer.save()
             return Response(training_serializer.data, status=status.HTTP_201_CREATED)
     return Response(data, status=status.HTTP_400_BAD_REQUEST)
+
+def put_post_characteristics_by_date_response(request):
+    data = format_characteristics_data(request)
+    characteristics_serializer = CharacteristicsSerializer(data=data, many=True)
+    if characteristics_serializer.is_valid():
+        characteristics_serializer.save()
+        return Response(characteristics_serializer.data, status=status.HTTP_201_CREATED)
+    else:
+        content = {"Error Message": "Data is not valid"}
+        return Response(content, status=status.HTTP_406_NOT_ACCEPTABLE)
