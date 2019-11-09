@@ -29,8 +29,18 @@ class GetCharacteristicsTest(TestCase):
         )
 
     def test_get_characteristics_by_date(self):
-        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'2019-03-25'}))
+        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'25032019'}))
         characterisitics_data = Characteristics.objects.filter(date="2019-03-25").values()
         serializer = CharacteristicsSerializer(characterisitics_data, many=True)
         self.assertEqual(response.data[0]['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_characteristics_by_invalid_datetype(self):
+        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'999'}))
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+    
+    def test_get_characteristics_by_invalid_date(self):
+        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'22032019'}))
+        characterisitics_data = Characteristics.objects.filter(date="2019-03-22").values()
+        serializer = CharacteristicsSerializer(characterisitics_data, many=True)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
