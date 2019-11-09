@@ -82,10 +82,20 @@ def exercises_by_name(request, exercise_name):
 
 @api_view(['GET'])
 def characteristics_by_date(request, date):
+    date = format_date(date)
     try:
         characteristics = Characteristics.objects.filter(date=date).values()
-        characteristics_serializer = CharacteristicsSerializer(characteristics, many=True)
-        return Response(characteristics_serializer.data, status=status.HTTP_200_OK)
     except:
         return Response(status=status.HTTP_400_BAD_REQUEST)
+    if request.method == "GET":
+        if not validate_date(date):
+            content = {"Error message": "Invalid date {} found. Correct date format is DDMMYYY".format(date)}
+            return Response(content, status=status.HTTP_400_BAD_REQUEST)
+        elif not characteristics:
+            content = {"Error Message: Characteristics for date {} not found".format(date)}
+            return Response(content, status=status.HTTP_404_NOT_FOUND)
+        else:
+            characteristics_serializer = CharacteristicsSerializer(characteristics, many=True)
+            return Response(characteristics_serializer.data, status=status.HTTP_200_OK)
+
 
