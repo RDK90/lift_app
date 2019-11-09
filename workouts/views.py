@@ -1,10 +1,10 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .serializers import TrainingSerializer
+from .serializers import TrainingSerializer, CharacteristicsSerializer
 from rest_framework.decorators import api_view
 from rest_framework import status
 from workouts.api_support import *
-from .models import Training
+from .models import Training, Characteristics
 
 @api_view(['GET'])
 def all_workouts(request):
@@ -80,5 +80,12 @@ def exercises_by_name(request, exercise_name):
     if request.method == "PUT":
         return put_post_exercises_by_name_response(request)
 
-    
+@api_view(['GET'])
+def characteristics_by_date(request, date):
+    try:
+        characteristics = Characteristics.objects.filter(date=date).values()
+        characteristics_serializer = CharacteristicsSerializer(characteristics, many=True)
+        return Response(characteristics_serializer.data, status=status.HTTP_200_OK)
+    except:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
 
