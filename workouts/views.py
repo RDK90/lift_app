@@ -80,7 +80,7 @@ def exercises_by_name(request, exercise_name):
     if request.method == "PUT":
         return put_post_exercises_by_name_response(request)
 
-@api_view(['GET', 'POST'])
+@api_view(['GET', 'POST', 'PUT'])
 def characteristics_by_date(request, date):
     date = format_date(date)
     try:
@@ -97,7 +97,7 @@ def characteristics_by_date(request, date):
         else:
             characteristics_serializer = CharacteristicsSerializer(characteristics, many=True)
             return Response(characteristics_serializer.data, status=status.HTTP_200_OK)
-    elif request.method == 'POST':
+    elif request.method == 'POST' or request.method == 'PUT':
         return put_post_characteristics_by_date_response(request)
 
 
