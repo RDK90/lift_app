@@ -1,5 +1,5 @@
 from django.test import TestCase
-from workouts.models import Training, Exercises, Characteristics
+from workouts.models import Training, Exercises, Characteristics, Plan
 from datetime import datetime
 # Create your tests here.
 class ModelsTest(TestCase):
@@ -15,3 +15,7 @@ class ModelsTest(TestCase):
     def test_characteristics_str_method(self):
         characteristics = Characteristics(date="25/03/19")
         self.assertEqual(str(characteristics), characteristics.date)
+
+    def test_plan_str_method(self):
+        plan = Plan(date="25/03/19")
+        self.assertEqual(str(plan), plan.date)

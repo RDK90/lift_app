@@ -34,3 +34,15 @@ class Characteristics(models.Model):
 
     def __str__(self):
         return str(self.date)
+
+class Plan(models.Model):
+    date = models.DateField()
+    exercise_category = models.CharField(max_length=10)
+    exercise = models.CharField(max_length=80)
+    set_number = models.IntegerField()
+    reps = models.IntegerField()
+    weight = models.FloatField()
+    rep_category = models.CharField(max_length=10)
+
+    def __str__(self):
+        return str(self.date)
