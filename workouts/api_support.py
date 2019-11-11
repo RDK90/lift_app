@@ -3,20 +3,6 @@ from rest_framework.response import Response
 from .serializers import TrainingSerializer, CharacteristicsSerializer
 from rest_framework import status
 
-def validate_date(date):
-    try:
-        datetime.strptime(date, '%Y-%m-%d')
-        return True
-    except:
-        return False
-
-def validate_time(time):
-    try:
-        datetime.strptime(time, '%H:%M')
-        return True
-    except:
-        return False
-
 def format_date(workout_id):
     return "{}-{}-{}".format(workout_id[4:8], workout_id[2:4], workout_id[0:2])
 

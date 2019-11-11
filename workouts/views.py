@@ -38,9 +38,6 @@ def workouts_by_id(request, workout_id):
     except:
         return Response(status=status.HTTP_400_BAD_REQUEST)
     if request.method == "GET":
-        if not validate_date(date):
-            content = {"Error message": "Invalid date {} found. Correct date format is DDMMYYY".format(date)}
-            return Response(content, status=status.HTTP_400_BAD_REQUEST)
         if not workouts:
             content = {"Error message": "No workouts for date {} found".format(date)}
             return Response(content, status=status.HTTP_404_NOT_FOUND)
@@ -88,10 +85,7 @@ def characteristics_by_date(request, date):
     except:
         return Response(status=status.HTTP_400_BAD_REQUEST)
     if request.method == "GET":
-        if not validate_date(date):
-            content = {"Error message": "Invalid date {} found. Correct date format is DDMMYYY".format(date)}
-            return Response(content, status=status.HTTP_400_BAD_REQUEST)
-        elif not characteristics:
+        if not characteristics:
             content = {"Error Message: Characteristics for date {} not found".format(date)}
             return Response(content, status=status.HTTP_404_NOT_FOUND)
         else:
