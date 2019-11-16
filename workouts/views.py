@@ -1,10 +1,10 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from .serializers import TrainingSerializer, CharacteristicsSerializer
+from .serializers import TrainingSerializer, CharacteristicsSerializer, PlanSerializer
 from rest_framework.decorators import api_view
 from rest_framework import status
 from workouts.api_support import *
-from .models import Training, Characteristics
+from .models import Training, Characteristics, Plan
 
 @api_view(['GET'])
 def all_workouts(request):
@@ -97,3 +97,20 @@ def characteristics_by_date(request, date):
         characteristics = Characteristics.objects.filter(date=date)
         characteristics.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def all_plans(request):
+    if request.method == "GET":
+        workouts = Plan.objects.all()
+        plan_serializer = PlanSerializer(workouts, many=True)
+        response_data = [{"date":"", "workout":[]}]
+        index = 0
+        for plan in plan_serializer.data:
+            date = plan.pop("date")
+            if response_data[index]["date"] == "" or response_data[index]["date"] != date:
+                response_data.append({"date":date, "workout":[plan]})
+                index = index + 1
+            else:
+                response_data[index]["workout"].append(plan)
+        response_data.pop(0)
+        return Response(response_data)
