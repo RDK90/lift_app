@@ -34,3 +34,20 @@ class GetPlanssTest(TestCase):
         serializer = PlanSerializer(plan_data, many=True)
         self.assertEqual(response.data[0]['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_plan_by_date(self):
+        response = client.get(reverse('workouts:date_plans', kwargs={'date':'25032019'}))
+        plan_data = Plan.objects.filter(date='2019-03-25').values()
+        serializer = PlanSerializer(plan_data, many=True)
+        self.assertEqual(response.data['date'], serializer.data[0]['date'])
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_invalid_plan_by_id(self):
+        response = client.get(reverse('workouts:date_plans', kwargs={'date':'22032019'}))
+        plan_data = Plan.objects.filter(date="2019-03-22").values()
+        serializer = PlanSerializer(plan_data, many=True)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+    
+    def test_get_invalid_datetype_plan_by_id(self):
+        response = client.get(reverse('workouts:date_plans', kwargs={'date':'999'}))
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
