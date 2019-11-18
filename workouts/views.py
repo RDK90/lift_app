@@ -114,3 +114,20 @@ def all_plans(request):
                 response_data[index]["workout"].append(plan)
         response_data.pop(0)
         return Response(response_data)
+
+@api_view(['GET'])
+def plans_by_date(request, date):
+    date = format_date(date)
+    try:
+        workouts = Plan.objects.filter(date=date).values()
+    except:
+        return Response(status=status.HTTP_400_BAD_REQUEST)
+    if request.method == "GET":
+        if not workouts:
+            content = {"Error message": "No plan for date {} found".format(date)}
+            return Response(content, status=status.HTTP_404_NOT_FOUND)
+        else:
+            plan_serializer = PlanSerializer(workouts, many=True)
+            for plans in plan_serializer.data:
+                plans.pop("date")
+            return Response({"date":date, "plan": plan_serializer.data})
