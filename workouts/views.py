@@ -49,7 +49,7 @@ def workouts_by_id(request, workout_id):
     if request.method == "POST" or request.method == "PUT":
         return put_post_workouts_by_id_response(request)
     if request.method == "DELETE":
-        workouts = Training.objects.get(date=date)
+        workouts = Training.objects.filter(date=date)
         workouts.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
