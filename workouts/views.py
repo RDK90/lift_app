@@ -113,7 +113,7 @@ def all_plans(request):
         response_data.pop(0)
         return Response(response_data)
 
-@api_view(['GET','PUT'])
+@api_view(['GET','PUT', 'POST'])
 def plans_by_date(request, date):
     date = format_date(date)
     try:
@@ -129,5 +129,5 @@ def plans_by_date(request, date):
             for plans in plan_serializer.data:
                 plans.pop("date")
             return Response({"date":date, "plan": plan_serializer.data})
-    if request.method == "PUT":
+    if request.method == "PUT" or request.method == "POST":
         return put_post_workouts_by_id_response(request)
