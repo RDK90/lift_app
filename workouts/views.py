@@ -113,7 +113,7 @@ def all_plans(request):
         response_data.pop(0)
         return Response(response_data)
 
-@api_view(['GET','PUT', 'POST'])
+@api_view(['GET','PUT', 'POST', 'DELETE'])
 def plans_by_date(request, date):
     date = format_date(date)
     try:
@@ -131,3 +131,7 @@ def plans_by_date(request, date):
             return Response({"date":date, "plan": plan_serializer.data})
     if request.method == "PUT" or request.method == "POST":
         return put_post_workouts_by_id_response(request)
+    if request.method == "DELETE":
+        plan = Plan.objects.filter(date=date)
+        plan.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
