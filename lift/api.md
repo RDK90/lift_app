@@ -589,3 +589,57 @@ No parameters
     "Error Message": "Data is not valid"
 }
 ```
+**Definition**
+
+`PUT /characteristics/{date}`
+
+**URL Parameters**
+
+- `"date":string` Date of workout in format (ddmmyyyy)
+
+**Response**
+- `201 CREATED` - on success
+
+```json
+[
+    {
+            "date": "06092019",
+            "week": 7,
+            "time": "20:45",
+            "toughness": 5,
+            "awakeness": 5,
+            "anxiety": 5,
+            "soreness": 5,
+            "enthusiasm": 5
+        }
+]
+```
+- `400 BAD REQUEST` - with invalid date format
+```json
+{
+    "Error message": "Invalid date -9-99 found. Correct date format is DDMMYYY"
+}
+```
+- `406 NOT ACCEPTABLE` - with incorrect characteristic data found for given date
+```json
+{
+    "Error Message": "Data is not valid"
+}
+```
+**Definition**
+
+`DELETE /characteristics/{date}`
+
+**URL Parameters**
+
+- `"date":string` Date of workout in format (ddmmyyyy)
+
+**Response**
+- `204 NO CONTENT` - on success
+
+- `400 BAD REQUEST` - with invalid date format
+```json
+{
+    "Error message": "Invalid date -9-99 found. Correct date format is DDMMYYY"
+}
+```
