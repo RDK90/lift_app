@@ -8,7 +8,7 @@ install:
   - docker-compose up --build -d
 
 before_script:
-  - python postgres_monitor.py
+  #- python postgres_monitor.py
   - docker exec -it django python manage.py makemigrations
   - docker exec -it django python manage.py migrate
 
