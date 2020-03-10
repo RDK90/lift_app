@@ -13,6 +13,7 @@ while num_of_tries < limit:
         message = str(postgres_logs).split("LOG:  ")
         if len(message) > 1:
             message = message[1]
+            print(message)
         if message == check_message:
             print("Postgres is ready")
             postgresup = True
