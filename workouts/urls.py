@@ -12,4 +12,5 @@ urlpatterns = [
     path('exercises/<exercise_name>/', views.exercises_by_name, name="name_exercises"),
     path('characteristics/<date>/', views.characteristics_by_date, name="date_characteristics"),
     path('plans/<date>/', views.plans_by_date, name="date_plans"),
+    path('login', views.login),
 ]
