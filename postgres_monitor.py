@@ -11,6 +11,7 @@ while num_of_tries < limit:
         postgres = client.containers.get('postgres')
         postgres_logs = postgres.logs(tail=1)
         message = str(postgres_logs).split("LOG:  ")
+        print(message)
         if len(message) > 1:
             message = message[1]
         if message == check_message:

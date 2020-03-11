@@ -1,16 +1,20 @@
 import json
 from rest_framework import status
-from django.test import TestCase, Client
+from django.test import TestCase
+from rest_framework.test import APIClient
 from django.urls import reverse
 from workouts.models import Characteristics
 from workouts.serializers import CharacteristicsSerializer
+from django.contrib.auth.models import User
 
-# initialize the APIClient app
-client = Client()
 
 class GetCharacteristicsTest(TestCase):
 
     def setUp(self):
+        user = User.objects.create(username="nerd")
+        self.client = APIClient()
+        self.client.force_authenticate(user=user)
+
         Characteristics.objects.create(
             id=2, date="2019-03-25", week=1, time="21:00:00",
             toughness=5, awakeness=5, anxiety=5, soreness=5, enthusiasm=5
@@ -29,18 +33,24 @@ class GetCharacteristicsTest(TestCase):
         )
 
     def test_get_characteristics_by_date(self):
-        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'25032019'}))
+        response = self.client.get(reverse('workouts:date_characteristics', kwargs={'date':'25032019'}))
         characterisitics_data = Characteristics.objects.filter(date="2019-03-25").values()
         serializer = CharacteristicsSerializer(characterisitics_data, many=True)
         self.assertEqual(response.data[0]['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
     def test_get_characteristics_by_invalid_datetype(self):
-        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'999'}))
+        response = self.client.get(reverse('workouts:date_characteristics', kwargs={'date':'999'}))
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
     
     def test_get_characteristics_by_invalid_date(self):
-        response = client.get(reverse('workouts:date_characteristics', kwargs={'date':'22032019'}))
+        response = self.client.get(reverse('workouts:date_characteristics', kwargs={'date':'22032019'}))
         characterisitics_data = Characteristics.objects.filter(date="2019-03-22").values()
         serializer = CharacteristicsSerializer(characterisitics_data, many=True)
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+    def test_no_auth_token(self):
+        self.no_auth_user = User.objects.create(username="notoken")
+        self.no_auth_client = APIClient()
+        response = self.no_auth_client.get(reverse('workouts:date_characteristics', kwargs={'date':'25032019'}))
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)

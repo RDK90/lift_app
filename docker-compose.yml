@@ -2,7 +2,7 @@ version: '3'
 
 services:
   db:
-    image: postgres
+    image: postgres:11.7
     container_name: postgres
     volumes:
       - db-data:/var/lib/postgresql/data
@@ -10,6 +10,8 @@ services:
       - internal
     ports:
       - "5555:5432"
+    environment: 
+      POSTGRES_HOST_AUTH_METHOD: trust
     
   web:
     restart: always
@@ -20,7 +22,7 @@ services:
     ports:
       - "8000:8000"
     depends_on:
-      - db
+      - "db"
     networks:
       - internal
     command: >
