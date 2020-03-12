@@ -7,12 +7,29 @@ from django.urls import reverse
 from workouts.models import Training
 from workouts.serializers import TrainingSerializer
 
-class PutExercisesTest(TestCase):
+class TestExercises(TestCase):
 
 	def setUp(self):
 		user = User.objects.create(username="nerd")
 		self.client = APIClient()
 		self.client.force_authenticate(user=user)
+
+		Training.objects.create(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=1, reps=8, weight=20, rep_category="Warm up"
+		)
+		Training.objects.create(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=2, reps=4, weight=70, rep_category="Work"
+		)
+		Training.objects.create(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=3, reps=4, weight=110, rep_category="Work"
+		)
+		Training.objects.create(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=4, reps=4, weight=120, rep_category="Work"
+		)
 
 		self.valid_training = Training.objects.create(
 			date="2019-09-16", exercise_category="T1", exercise="Low Bar Squat",
@@ -65,6 +82,25 @@ class PutExercisesTest(TestCase):
 			]
 		}
 
+	def test_get_exercise_by_name(self):
+		response = self.client.get(reverse('workouts:name_exercises', kwargs={'exercise_name':'Low Bar Squat'}))
+		exercise_data = Training.objects.filter(exercise="Low Bar Squat").values()
+		serializer = TrainingSerializer(exercise_data, many=True)
+		self.assertEqual(response.data['exercise'], serializer.data[0]['exercise'])
+		self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+	def test_get_exercise_by_invalid_name(self):
+		response = self.client.get(reverse('workouts:name_exercises', kwargs={'exercise_name':'Unknown Exercise'}))
+		exercise_data = Training.objects.filter(exercise="Unknown Exercise").values()
+		serializer = TrainingSerializer(exercise_data, many=True)
+		self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+	def test_get_exercise_no_auth_token(self):
+		self.no_auth_user = User.objects.create(username="notoken")
+		self.no_auth_client = APIClient()
+		response = self.no_auth_client.get(reverse('workouts:name_exercises', kwargs={'exercise_name':'Low Bar Squat'}))
+		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+
 	def test_put_exercise_by_name(self):
 		response = self.client.put(
 			reverse("workouts:name_exercises", kwargs={"exercise_name": self.valid_payload["exercise"]}),
@@ -89,7 +125,7 @@ class PutExercisesTest(TestCase):
 		)
 		self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
 
-	def test_no_auth_token(self):
+	def test_put_exercise_no_auth_token(self):
 		self.no_auth_user = User.objects.create(username="notoken")
 		self.no_auth_client = APIClient()
 		response = self.no_auth_client.put(
