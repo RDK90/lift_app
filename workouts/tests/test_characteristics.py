@@ -176,6 +176,7 @@ class TestCharacteristics(TestCase):
 		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
 	def tearDown(self):
+		User.objects.filter(username="nerd").delete()
 		Characteristics.objects.filter(
 			date="2019-03-25", week=1, time="21:00:00",
 			toughness=5, awakeness=5, anxiety=5, soreness=5, enthusiasm=5
@@ -196,12 +197,11 @@ class TestCharacteristics(TestCase):
 			date="2019-03-28", week=1, time="21:00:00",
 			toughness=1, awakeness=4, anxiety=2, soreness=5, enthusiasm=9
 		).delete()
-
-		self.valid_characteristics = Characteristics.objects.filter(
+		Characteristics.objects.filter(
 			date="2019-06-09", week=8, time="20:45", toughness=7,
 			awakeness=7, anxiety=2, soreness=2, enthusiasm=5
 		).delete()
-		self.invalid_characteristics = Characteristics.objects.filter(
+		Characteristics.objects.filter(
 			date="2019-07-09", week=8, time="20:45", toughness=7,
 			awakeness=7, anxiety=2, soreness=2, enthusiasm=5
 		).delete()

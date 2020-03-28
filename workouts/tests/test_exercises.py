@@ -134,3 +134,30 @@ class TestExercises(TestCase):
 			content_type="application/json"
 		)
 		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+
+	def tearDown(self):
+		User.objects.filter(username="nerd").delete()
+		Training.objects.filter(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=1, reps=8, weight=20, rep_category="Warm up"
+		).delete()
+		Training.objects.filter(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=2, reps=4, weight=70, rep_category="Work"
+		).delete()
+		Training.objects.filter(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=3, reps=4, weight=110, rep_category="Work"
+		).delete()
+		Training.objects.filter(
+			date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=4, reps=4, weight=120, rep_category="Work"
+		).delete()
+		Training.objects.filter(
+			date="2019-09-16", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=1, reps=8, weight=20, rep_category="Warm up"
+		).delete()
+		Training.objects.filter(
+			date="2019-09-23", exercise_category="T1", exercise="Low Bar Squat",
+			set_number=1, reps=8, weight=20, rep_category="Warm up"
+		).delete()
