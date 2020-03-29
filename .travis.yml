@@ -15,7 +15,6 @@ before_install:
 install:
   - python -m pip install docker
   - docker-compose up --build -d
-  - docker image ls
 
 before_script:
   - python postgres_monitor.py
