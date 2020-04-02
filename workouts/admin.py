@@ -1,5 +1,6 @@
 from django.contrib import admin
-from .models import Training, Exercises, Characteristics
+
+from .models import Characteristics, Exercises, Training
 
 # Register your models here.
 admin.site.register(Training)

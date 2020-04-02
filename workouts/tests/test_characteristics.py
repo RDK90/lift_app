@@ -1,11 +1,14 @@
 import json
-from rest_framework import status
+
+from django.contrib.auth.models import User
 from django.test import TestCase
-from rest_framework.test import APIClient
 from django.urls import reverse
+from rest_framework import status
+from rest_framework.test import APIClient
+
 from workouts.models import Characteristics
 from workouts.serializers import CharacteristicsSerializer
-from django.contrib.auth.models import User
+
 
 class TestCharacteristics(TestCase):
 
@@ -205,4 +208,3 @@ class TestCharacteristics(TestCase):
 			date="2019-07-09", week=8, time="20:45", toughness=7,
 			awakeness=7, anxiety=2, soreness=2, enthusiasm=5
 		).delete()
-	

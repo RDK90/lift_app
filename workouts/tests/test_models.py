@@ -1,6 +1,10 @@
-from django.test import TestCase
-from workouts.models import Training, Exercises, Characteristics, Plan
 from datetime import datetime
+
+from django.test import TestCase
+
+from workouts.models import Characteristics, Exercises, Plan, Training
+
+
 # Create your tests here.
 class ModelsTest(TestCase):
 

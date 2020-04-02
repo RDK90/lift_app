@@ -1,14 +1,18 @@
+from django.contrib.auth import authenticate
+from django.views.decorators.csrf import csrf_exempt
+from rest_framework import status
+from rest_framework.authtoken.models import Token
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
-from django.views.decorators.csrf import csrf_exempt
-from django.contrib.auth import authenticate
-from rest_framework.authtoken.models import Token
-from rest_framework.permissions import AllowAny
-from .serializers import TrainingSerializer, CharacteristicsSerializer, PlanSerializer
-from rest_framework.decorators import api_view, permission_classes
-from rest_framework import status
+
 from workouts.api_support import *
-from .models import Training, Characteristics, Plan
+
+from .models import Characteristics, Plan, Training
+from .serializers import (CharacteristicsSerializer, PlanSerializer,
+                          TrainingSerializer)
+
 
 @api_view(['GET'])
 def all_workouts(request):

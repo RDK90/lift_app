@@ -1,11 +1,14 @@
 import json
-from rest_framework import status
-from django.test import TestCase
-from rest_framework.test import APIClient
+
 from django.contrib.auth.models import User
+from django.test import TestCase
 from django.urls import reverse
+from rest_framework import status
+from rest_framework.test import APIClient
+
 from workouts.models import Plan
 from workouts.serializers import PlanSerializer
+
 
 class TestPlans(TestCase):
 
@@ -229,4 +232,3 @@ class TestPlans(TestCase):
             date="2019-09-23", exercise_category="T1", exercise="Low Bar Squat",
             set_number=1, reps=8, weight=20, rep_category="Warm up"
         ).delete()
-

@@ -1,5 +1,7 @@
 import csv
+
 import psycopg2
+
 conn = psycopg2.connect("host=localhost dbname=postgres user=postgres port=5555")
 cur = conn.cursor()
 csv_file = 'traininglog.csv'
