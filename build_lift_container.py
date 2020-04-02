@@ -1,7 +1,8 @@
 #Build Lift App Container
-import docker
-from getpass import getpass
 import argparse
+from getpass import getpass
+
+import docker
 
 my_parser = argparse.ArgumentParser()
 my_parser.add_argument('--repo', action='store', type=str, required=True)
@@ -19,4 +20,3 @@ client.login(username=args.user, password=args.passwd)
 lift_app.tag(repo, tag=tag)
 for line in client.images.push(repo, stream=True, decode=True):
     print(line)
-

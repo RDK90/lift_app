@@ -1,7 +1,10 @@
 from datetime import datetime
-from rest_framework.response import Response
-from .serializers import TrainingSerializer, CharacteristicsSerializer
+
 from rest_framework import status
+from rest_framework.response import Response
+
+from .serializers import CharacteristicsSerializer, TrainingSerializer
+
 
 def format_date(workout_id):
     return "{}-{}-{}".format(workout_id[4:8], workout_id[2:4], workout_id[0:2])

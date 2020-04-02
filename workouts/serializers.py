@@ -1,5 +1,7 @@
-from .models import Training, Characteristics, Plan
 from rest_framework import serializers
+
+from .models import Characteristics, Plan, Training
+
 
 class TrainingSerializer(serializers.ModelSerializer):
     class Meta:

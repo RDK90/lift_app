@@ -1,11 +1,14 @@
 import json
-from rest_framework import status
-from django.test import TestCase
-from rest_framework.test import APIClient
-from django.urls import reverse
+
 from django.contrib.auth.models import User
+from django.test import TestCase
+from django.urls import reverse
+from rest_framework import status
+from rest_framework.test import APIClient
+
 from workouts.models import Training
 from workouts.serializers import TrainingSerializer
+
 
 class TestWorkouts(TestCase):
 

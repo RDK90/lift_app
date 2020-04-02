@@ -1,5 +1,6 @@
-import docker
 from time import sleep
+
+import docker
 
 client = docker.from_env()
 limit = 20
