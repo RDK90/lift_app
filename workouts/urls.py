@@ -5,7 +5,7 @@ from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
 from . import views
-from . import workouts_api, characteristics_api, plans_api
+from . import workouts_api, characteristics_api, plans_api, exercises_api
 
 app_name = "workouts"
 
@@ -28,7 +28,7 @@ urlpatterns = [
     path('workouts/', workouts_api.all_workouts, name='all_workouts'),
     path('plans/', plans_api.all_plans, name='all_plans'),
     path('workouts/<workout_id>/', workouts_api.workouts_by_id, name='id_workouts'),
-    path('exercises/<exercise_name>/', views.exercises_by_name, name="name_exercises"),
+    path('exercises/<exercise_name>/', exercises_api.exercises_by_name, name="name_exercises"),
     path('characteristics/<date>/', characteristics_api.characteristics_by_date, name="date_characteristics"),
     path('plans/<date>/', plans_api.plans_by_date, name="date_plans"),
     path('login', views.login, name="login"),
