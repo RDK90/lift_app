@@ -8,6 +8,7 @@ from workouts.api_support import *
 from .models import Plan
 from .serializers import PlanSerializer
 
+
 @api_view(['GET'])
 def all_plans(request):
     if request.method == "GET":

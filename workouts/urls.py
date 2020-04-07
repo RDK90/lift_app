@@ -4,8 +4,8 @@ from rest_framework import permissions
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
-from . import views
-from . import workouts_api, characteristics_api, plans_api, exercises_api
+from . import (characteristics_api, exercises_api, plans_api, views,
+               workouts_api)
 
 app_name = "workouts"
 

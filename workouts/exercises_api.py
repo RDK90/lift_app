@@ -8,6 +8,7 @@ from workouts.api_support import *
 from .models import Training
 from .serializers import TrainingSerializer
 
+
 @api_view(['GET', 'PUT'])
 def exercises_by_name(request, exercise_name):
 
