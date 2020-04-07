@@ -8,3 +8,4 @@ pytest-django
 pytest-cov
 drf-yasg
 isort
+pylint
