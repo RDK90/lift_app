@@ -8,6 +8,7 @@ from workouts.api_support import *
 from .models import Characteristics
 from .serializers import CharacteristicsSerializer
 
+
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def characteristics_by_date(request, date):
     date = format_date(date)

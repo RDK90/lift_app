@@ -8,6 +8,7 @@ from workouts.api_support import *
 from .models import Training
 from .serializers import TrainingSerializer
 
+
 @api_view(['GET'])
 def all_workouts(request):
     if request.method == "GET":
