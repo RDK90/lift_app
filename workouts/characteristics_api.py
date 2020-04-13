@@ -1,3 +1,5 @@
+from drf_yasg.utils import swagger_auto_schema
+
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
@@ -8,7 +10,26 @@ from workouts.api_support import *
 from .models import Characteristics
 from .serializers import CharacteristicsSerializer
 
-
+@swagger_auto_schema(
+    method='GET',
+    operation_id='GET Characteristics by <date>',
+    operation_description='GET /characteristics/date \n Date in format ddmmyyy \n Example: GET /characteristics/25032019'
+)
+@swagger_auto_schema(
+    method='POST',
+    operation_id='POST Characteristics by <date>',
+    operation_description='POST /characteristics/date \n Date in format ddmmyyy \n Example: POST /characteristics/25032019'
+)
+@swagger_auto_schema(
+    method='PUT',
+    operation_id='PUT Characteristics by <date>',
+    operation_description='PUT /characteristics/date \n Date in format ddmmyyy \n Example: PUT /characteristics/25032019'
+)
+@swagger_auto_schema(
+    method='DELETE',
+    operation_id='DELETE Characteristics by <date>',
+    operation_description='DELETE /characteristics/date \n Date in format ddmmyyy \n Example: DELETE /characteristics/25032019'
+)
 @api_view(['GET', 'POST', 'PUT', 'DELETE'])
 def characteristics_by_date(request, date):
     date = format_date(date)
