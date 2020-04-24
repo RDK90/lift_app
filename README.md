@@ -1,7 +1,7 @@
 # Lift App
 
 [![Build Status](https://travis-ci.com/RDK90/lift_app.svg?token=DSACVxyKczSxGskhxsZK&branch=master)](https://travis-ci.com/RDK90/lift_app)
-[![Coverage Status](https://coveralls.io/repos/github/RDK90/lift_app/badge.svg?branch=development)](https://coveralls.io/github/RDK90/lift_app?branch=development)
+[![Coverage Status](https://coveralls.io/repos/github/RDK90/lift_app/badge.svg?branch=master)](https://coveralls.io/github/RDK90/lift_app?branch=master)
 
 ## Intro
 This app is designed to track workouts for analysis, with a particular emphasis on powerlifting. 

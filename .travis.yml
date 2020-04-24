@@ -31,7 +31,8 @@ after_success:
   - coveralls
 
 deploy:
+  skip_cleanup: true
   provider: script
   script: python build_lift_container.py --repo $docker_repo --user $docker_username --passwd $docker_password
   on:
-    branch: master
+    branch: release
