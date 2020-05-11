@@ -3,9 +3,6 @@ language: python
 services:
   - docker
 
-env:
-  - DJANGO_SETTINGS_MODULE='lift.settings'
-
 install:
   - python -m pip install docker
   - docker-compose up --build -d
@@ -16,7 +13,6 @@ before_script:
   - docker exec -it django python manage.py migrate
 
 script:
-  - echo $DJANGO_SETTINGS_MODULE
   - cat pytest.ini
   - docker exec -it django pytest --cov
   - docker cp django:code/.coverage ./
