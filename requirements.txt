@@ -1,10 +1,11 @@
 docker
 Django==3.0.3
 psycopg2>=2.7,<3.0
-pytest
+pytest==5.3.1
+pytest-cov==2.8.1
+pytest-django
 sqlparse
 djangorestframework
-pytest-django
-pytest-cov
+coverage==4.5.4
 drf-yasg
 isort

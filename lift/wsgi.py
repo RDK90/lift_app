@@ -8,8 +8,13 @@ https://docs.djangoproject.com/en/2.2/howto/deployment/wsgi/
 """
 
 import os
+import lift
 
 from django.core.wsgi import get_wsgi_application
+from django.conf import settings
+
+if not settings.configured:
+    settings.configure(lift_app, DEBUG=True)
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lift.settings')
 
