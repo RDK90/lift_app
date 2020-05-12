@@ -13,7 +13,8 @@ before_script:
   - docker exec -it django python manage.py migrate
 
 script:
-  - docker exec -it django DJANGO_SETTINGS_MODULE=lift.settings pytest --cov
+  - docker exec -it django export DJANGO_SETTINGS_MODULE='lift.settings'
+  - docker exec -it django pytest --cov
   - docker cp django:code/.coverage ./
   - sed -i "s@\"/code/@\"${PWD}/@g" .coverage
 
