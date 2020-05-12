@@ -25,6 +25,8 @@ services:
       - "db"
     networks:
       - internal
+    environment:
+      - DJANGO_SETTINGS_MODULE: lift.settings
     command: >
       /bin/bash -c "
         sleep 5;
