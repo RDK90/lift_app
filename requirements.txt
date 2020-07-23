@@ -9,3 +9,4 @@ djangorestframework
 coverage==4.5.4
 drf-yasg
 isort
+gunicorn==20.0.4
