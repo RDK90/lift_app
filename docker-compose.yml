@@ -1,6 +1,32 @@
 version: '3'
 
 services:
+  nginx:
+    image: nginx:1.13
+    ports:
+      - 1337:80
+    volumes:
+      - ./config/nginx/conf.d:/etc/nginx/conf.d
+    networks:
+      - internal
+    depends_on:
+      - web
+    restart: always
+
+  web:
+    restart: always
+    build: .
+    container_name: django
+    volumes:
+      - .:/code
+    depends_on:
+      - "db"
+    networks:
+      - internal
+    environment:
+      DJANGO_SETTINGS_MODULE: 'lift.settings'
+    command: gunicorn lift.wsgi:application --bind 0.0.0.0:8000
+
   db:
     image: postgres:11.7
     container_name: postgres
@@ -12,22 +38,6 @@ services:
       - "5555:5432"
     environment: 
       POSTGRES_HOST_AUTH_METHOD: trust
-    
-  web:
-    restart: always
-    build: .
-    container_name: django
-    volumes:
-      - .:/code
-    ports:
-      - "8000:8000"
-    depends_on:
-      - "db"
-    networks:
-      - internal
-    environment:
-      DJANGO_SETTINGS_MODULE: 'lift.settings'
-    command: gunicorn lift.wsgi:application --bind 0.0.0.0:8000
 
 volumes:
   db-data:
