@@ -2,7 +2,7 @@ from time import sleep
 
 import docker
 
-client = docker.from_env()
+client = docker.from_env(version="1.38")
 limit = 20
 num_of_tries = 1
 check_message = "database system is ready to accept connections\\n'"
