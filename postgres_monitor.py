@@ -2,7 +2,15 @@ from time import sleep
 
 import docker
 
-client = docker.from_env(version="1.38")
+def get_docker_server_version():
+    docker_details = docker.from_env()
+    api_versions = []
+    for components in docker_details.version()['Components']:
+        if components['Name'] == "Engine":
+            api_versions.append(components['Details']['ApiVersion'])
+    return max(api_versions)
+
+client = docker.from_env(version=str(get_docker_server_version()))
 limit = 20
 num_of_tries = 1
 check_message = "database system is ready to accept connections\\n'"
