@@ -24,10 +24,7 @@ The Django app and Postgres database can be started by running both the containe
 ```
 docker-compose up
 ```
-The Django app can be found by navigating to 
-> localhost:8000
-
-Localhost, 127.0.0.1 or 0.0.0.0 are all valid hosts for this application
+This app uses port 80 for incoming connections so before running ensure port 80 is not in use by another app. Or if another port is needed it can be modified in docker-compose configuration in the nginx port section.
 
 ## Loading the database
 Firstly, the tables need to be created. This can be using the migration method from the models API on the Django application.
@@ -49,7 +46,26 @@ Now run the following command in the Django container:
 python port_data.py
 ```
 This is migrate the data from the _traininglog.csv_ file into the Postgres database. To see this navigate to:
-> localhost:8000/api/workouts
+> localhost/api/workouts
+
+## Create a user
+This app uses basic auth for all the APIs. To create a superuser for Django admin, follow the guide [here](https://docs.djangoproject.com/en/1.8/intro/tutorial02/#creating-an-admin-user). Use this user, or create another user in the [Django admin console](https://docs.djangoproject.com/en/1.8/intro/tutorial02/#enter-the-admin-site), to generate an auth token. This can be done by raising a POST request to the endpoint:
+> localhost/api/login
+
+with the username and password in the request body. An example curl request is below:
+```
+curl --location --request POST "http://localhost/api/login" \
+--header "Accept: application/json" \
+--header "Content-Type: application/json" \
+--form "username=username" \
+--form "password=password"
+```
+The token returned from this API can then be passed in as a value in the Authorization header such as: 
+```
+curl --location --request GET 'http://localhost/api/characteristics/999999' \
+--header 'Accept: application/json' \
+--header 'Authorization: Token token'
+```
 
 ## Unit Tests
 To run the unit tests, there are two main options. The first option is to use Django's built in testing framework. This can be done by logging into the Django container and running:
@@ -57,9 +73,7 @@ To run the unit tests, there are two main options. The first option is to use Dj
 python manage.py test
 ```
 The second option is to use Pytest. Pytest has been installed as part of the project and can give more in-depth statistics including test coverage. This can be run by logging into the Django container and running:
-```
-pytest
-```
+
 If you would like more detailed statistics about test coverage, pytest-cov has also been included. This will give a more detailed breakdown of the unit test coverage per Python file in the project. This can be run by logging into the Django container and running:
 ```
 pytest --cov
