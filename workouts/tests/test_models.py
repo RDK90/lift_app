@@ -1,8 +1,9 @@
 from datetime import datetime
 
+from django.contrib.auth.models import User
 from django.test import TestCase
 
-from workouts.models import Characteristics, Exercises, Plan, Training
+from workouts.models import Characteristics, Exercises, Plan, Training, Profile
 
 
 # Create your tests here.
@@ -23,3 +24,14 @@ class ModelsTest(TestCase):
     def test_plan_str_method(self):
         plan = Plan(date="25/03/19")
         self.assertEqual(str(plan), plan.date)
+
+    def test_profile_str_method(self):
+        user = User.objects.create_user(
+            username = 'test',
+            password = 'test',
+            email = 'test@test.com'
+        )
+        user.save()
+        profile = Profile(user=user)
+        self.assertEqual(str(profile), profile.user.username)
+        User.objects.filter(username=user.username).delete()
