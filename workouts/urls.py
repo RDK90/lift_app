@@ -32,4 +32,5 @@ urlpatterns = [
     path('characteristics/<date>/', characteristics_api.characteristics_by_date, name="date_characteristics"),
     path('plans/<date>/', plans_api.plans_by_date, name="date_plans"),
     path('login', views.login, name="login"),
+    path('v2/workouts/', workouts_api.get_all_workouts_version_two, name="all_workouts_v2"),
 ]
