@@ -35,3 +35,8 @@ class ModelsTest(TestCase):
         profile = Profile(user=user)
         self.assertEqual(str(profile), profile.user.username)
         User.objects.filter(username=user.username).delete()
+
+    # v2 Tests
+    def test_training_version_two_str_method(self):
+        training_date = Training(date='25/03/19')
+        self.assertEqual(str(training_date), training_date.date)
