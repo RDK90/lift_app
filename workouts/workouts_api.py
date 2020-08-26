@@ -1,11 +1,12 @@
 from rest_framework import status
 from rest_framework.decorators import api_view
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from workouts.api_support import *
 
-from .models import Training
+from .models import Training, TrainingVersionTwo, Profile
 from .serializers import TrainingSerializer
 
 
@@ -48,3 +49,21 @@ def workouts_by_id(request, workout_id):
         workouts = Training.objects.filter(date=date)
         workouts.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def get_all_workouts_version_two(request):
+    if request.method == "GET":
+        profile_user = Profile.objects.get(user=request.user)
+        workouts = TrainingVersionTwo.objects.filter(user=profile_user)
+        training_serializer = TrainingSerializer(workouts, many=True)
+        response_data = [{"date":"", "workout":[]}]
+        index = 0
+        for workout in training_serializer.data:
+            date = workout.pop("date")
+            if response_data[index]["date"] == "" or response_data[index]["date"] != date:
+                response_data.append({"date":date, "workout":[workout]})
+                index = index + 1
+            else:
+                response_data[index]["workout"].append(workout)
+        response_data.pop(0)
+        return Response(response_data)
