@@ -13,24 +13,24 @@ class TestWorkoutsVersionTwo(TestCase):
 
     def setUp(self):
         test_user = User.objects.create(username="nerd")
-        user = Profile.objects.create(user=test_user)
+        self.user = Profile.objects.create(user=test_user)
         self.client = APIClient()
         self.client.force_authenticate(user=test_user)
 
         TrainingVersionTwo.objects.create(
-            user=user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
             set_number=1, reps=8, weight=20, rep_category="Warm up"
         )
         TrainingVersionTwo.objects.create(
-            user=user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
             set_number=2, reps=8, weight=30, rep_category="Warm up"
         )
         TrainingVersionTwo.objects.create(
-            user=user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
             set_number=3, reps=8, weight=40, rep_category="Warm up"
         )
         TrainingVersionTwo.objects.create(
-            user=user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
             set_number=4, reps=8, weight=50, rep_category="Work"
         )
 
@@ -40,6 +40,29 @@ class TestWorkoutsVersionTwo(TestCase):
         serializer = TrainingSerializer(workout_data, many=True)
         self.assertEqual(response.data[0]['date'], serializer.data[0]['date'])
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_workouts_by_date_version_two(self):
+        response = self.client.get(reverse('workouts:workouts_by_date_v2', kwargs={'date':'25032019'}))
+        workout_data = TrainingVersionTwo.objects.filter(user=self.user, date="2019-03-25").values()
+        serializer = TrainingSerializer(workout_data, many=True)
+        self.assertEqual(response.data['date'], serializer.data[0]['date'])
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+
+    def test_get_workouts_by_invalid_date_version_two(self):
+        response = self.client.get(reverse('workouts:workouts_by_date_v2', kwargs={'date': '22092019'}))
+        workout_data = TrainingVersionTwo.objects.filter(user=self.user, date="2019-09-22").values()
+        serializer = TrainingSerializer(workout_data, many=True)
+        self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
+
+    def test_get_workouts_by_invalid_datetype_version_two(self):
+        response = self.client.get(reverse('workouts:workouts_by_date_v2', kwargs={'date': '999'}))
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_get_workouts_no_auth_token_version_two(self):
+        self.no_auth_user = User.objects.create(username="notoken")
+        self.no_auth_client = APIClient()
+        response = self.no_auth_client.get(reverse('workouts:workouts_by_date_v2', kwargs={'date':'25032019'}))
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
     def tearDown(self):
         User.objects.filter(username="nerd").delete()
