@@ -61,6 +61,21 @@ class Characteristics(models.Model):
     def __str__(self):
         return str(self.date)
 
+#v2 Characteristics Model
+class CharacteristicsVersionTwo(models.Model):
+    user = models.ForeignKey(Profile, default=1, on_delete=models.CASCADE)
+    date = models.DateField()
+    week = models.IntegerField()
+    time = models.TimeField()
+    toughness = models.IntegerField()
+    awakeness = models.IntegerField()
+    anxiety = models.IntegerField()
+    soreness = models.IntegerField()
+    enthusiasm = models.IntegerField()
+
+    def __str__(self):
+        return str(self.date)
+        
 class Plan(models.Model):
     date = models.DateField()
     exercise_category = models.CharField(max_length=10)
