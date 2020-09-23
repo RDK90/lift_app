@@ -159,7 +159,41 @@ class TestWorkoutsVersionTwo(TestCase):
         )
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
+    def test_delete_workouts_by_date_version_two(self):
+        response = self.client.delete(
+            reverse("workouts:workouts_by_date_v2", kwargs={"date": self.valid_payload["date"]})
+        )
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
 
+    def test_delete_workouts_by_invalid_date_version_two(self):
+        response = self.client.delete(
+            reverse("workouts:workouts_by_date_v2", kwargs={"date": "999"})
+        )
+        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+    def test_delete_workous_no_auth_token_version_two(self):
+        self.no_auth_user = User.objects.create(username="notoken")
+        self.no_auth_client = APIClient()
+        response = self.no_auth_client.delete(
+            reverse("workouts:workouts_by_date_v2", kwargs={"date": self.valid_payload["date"]})
+        )
+        self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
     def tearDown(self):
         User.objects.filter(username="nerd").delete()
+        TrainingVersionTwo.objects.create(
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            set_number=1, reps=8, weight=20, rep_category="Warm up"
+        ).delete()
+        TrainingVersionTwo.objects.create(
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            set_number=2, reps=8, weight=30, rep_category="Warm up"
+        ).delete()
+        TrainingVersionTwo.objects.create(
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            set_number=3, reps=8, weight=40, rep_category="Warm up"
+        ).delete()
+        TrainingVersionTwo.objects.create(
+            user=self.user, date="2019-03-25", exercise_category="T1", exercise="Low Bar Squat",
+            set_number=4, reps=8, weight=50, rep_category="Work"
+        ).delete()

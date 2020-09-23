@@ -87,7 +87,7 @@ def get_workouts_by_date_version_two(request, date):
             return Response({"date":formatted_date, "workout": training_serializer.data})
     if request.method == "POST" or request.method == "PUT":
         return put_post_workouts_by_id_response(request)
-    # if request.method == "DELETE":
-    #     workouts = Training.objects.filter(date=formatted_date)
-    #     workouts.delete()
-    #     return Response(status=status.HTTP_204_NO_CONTENT)
+    if request.method == "DELETE":
+        workouts = Training.objects.filter(date=formatted_date)
+        workouts.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
