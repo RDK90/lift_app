@@ -84,3 +84,72 @@ class TestCharacteristicsVersionTwo(TestCase):
 		self.no_auth_client = APIClient()
 		response = self.no_auth_client.get(reverse('workouts:characteristics_by_date_v2', kwargs={'date':'25032019'}))
 		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+
+	def test_post_characteristics_by_date(self):
+		response = self.client.post(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "06092019"}),
+			data=json.dumps(self.valid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
+	def test_post_characteristics_by_invalid_payload(self):
+		response = self.client.post(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "06092019"}),
+			data=json.dumps(self.invalid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_406_NOT_ACCEPTABLE)
+
+	def test_post_characteristics_by_invalid_date(self):
+		response = self.client.post(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "999"}),
+			data=json.dumps(self.valid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+	def test_post_characteristics_no_auth_token(self):
+		self.no_auth_user = User.objects.create(username="notoken")
+		self.no_auth_client = APIClient()
+		response = self.no_auth_client.post(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "06092019"}),
+			data=json.dumps(self.valid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+
+	def test_put_characteristics_by_date(self):
+		response = self.client.put(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "06092019"}),
+			data=json.dumps(self.valid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+
+	def test_put_characteristics_by_invalid_date(self):
+		response = self.client.put(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "999"}),
+			data=json.dumps(self.invalid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+	def test_put_characteristics_by_invalid_payload(self):
+		response = self.client.put(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "07062019"}),
+			data=json.dumps(self.invalid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_406_NOT_ACCEPTABLE)
+	
+	def test_put_characteristics_no_auth_token(self):
+		self.no_auth_user = User.objects.create(username="notoken")
+		self.no_auth_client = APIClient()
+		response = self.no_auth_client.put(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date": "06092019"}),
+			data=json.dumps(self.valid_payload),
+			content_type="application/json"
+		)
+		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
+		
