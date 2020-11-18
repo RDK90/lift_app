@@ -153,3 +153,22 @@ class TestCharacteristicsVersionTwo(TestCase):
 		)
 		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 		
+	def test_delete_characteristics_by_date(self):
+		response = self.client.delete(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date":"06092019"})
+		)
+		self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+
+	def test_delete_characteristics_by_invalid_date(self):
+		response = self.client.delete(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date":"999"})
+		)
+		self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+
+	def test_delete_characteristics_no_auth_token(self):
+		self.no_auth_user = User.objects.create(username="notoken")
+		self.no_auth_client = APIClient()
+		response = self.no_auth_client.delete(
+			reverse("workouts:characteristics_by_date_v2", kwargs={"date":"06092019"})
+		)
+		self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
