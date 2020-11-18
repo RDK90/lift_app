@@ -68,7 +68,7 @@ def characteristics_by_date_version_two(request, date):
             return Response(characteristics_serializer.data, status=status.HTTP_200_OK)
     elif request.method == 'POST' or request.method == 'PUT':
         return put_post_characteristics_by_date_response(request)
-    # elif request.method == 'DELETE':
-    #     characteristics = Characteristics.objects.filter(date=date)
-    #     characteristics.delete()
-    #     return Response(status=status.HTTP_204_NO_CONTENT)
+    elif request.method == 'DELETE':
+        characteristics = CharacteristicsVersionTwo.objects.filter(user=profile_user, date=formatted_date)
+        characteristics.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
