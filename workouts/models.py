@@ -87,3 +87,17 @@ class Plan(models.Model):
 
     def __str__(self):
         return str(self.date)
+
+# v2 Plan 
+class PlanVersionTwo(models.Model):
+    user = models.ForeignKey(Profile, default=1, on_delete=models.CASCADE)
+    date = models.DateField()
+    exercise_category = models.CharField(max_length=10)
+    exercise = models.CharField(max_length=80)
+    set_number = models.IntegerField()
+    reps = models.IntegerField()
+    weight = models.FloatField()
+    rep_category = models.CharField(max_length=10)
+
+    def __str__(self):
+        return str(self.date)
