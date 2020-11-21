@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 
 from workouts.api_support import *
 
-from .models import Plan
+from .models import Profile, PlanVersionTwo, Plan
 from .serializers import PlanSerializer
 
 
@@ -48,3 +48,21 @@ def plans_by_date(request, date):
         plan = Plan.objects.filter(date=date)
         plan.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def all_plans_version_two(request):
+    if request.method == "GET":
+        profile_user = Profile.objects.get(user=request.user)
+        workouts = PlanVersionTwo.objects.filter(user=profile_user)
+        plan_serializer = PlanSerializer(workouts, many=True)
+        response_data = [{"date":"", "workout":[]}]
+        index = 0
+        for plan in plan_serializer.data:
+            date = plan.pop("date")
+            if response_data[index]["date"] == "" or response_data[index]["date"] != date:
+                response_data.append({"date":date, "workout":[plan]})
+                index = index + 1
+            else:
+                response_data[index]["workout"].append(plan)
+        response_data.pop(0)
+        return Response(response_data)
