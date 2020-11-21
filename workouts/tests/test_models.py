@@ -3,7 +3,7 @@ from datetime import datetime
 from django.contrib.auth.models import User
 from django.test import TestCase
 
-from workouts.models import Characteristics, Exercises, Plan, Training, Profile, TrainingVersionTwo, CharacteristicsVersionTwo
+from workouts.models import Characteristics, Exercises, Plan, Training, Profile, TrainingVersionTwo, CharacteristicsVersionTwo, PlanVersionTwo
 
 
 # Create your tests here.
@@ -44,3 +44,7 @@ class ModelsTest(TestCase):
     def test_characteristics_version_two_str_method(self):
         characteristics = CharacteristicsVersionTwo(date="25/03/19")
         self.assertEqual(str(characteristics), characteristics.date)
+
+    def test_plan_version_two_str_method(self):
+        plan = PlanVersionTwo(date="25/03/19")
+        self.assertEqual(str(plan), plan.date)
