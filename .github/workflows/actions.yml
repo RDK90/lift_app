@@ -40,13 +40,14 @@ jobs:
         run: python postgres_monitor.py
 
   migrations:
+    needs: build
     runs-on: ubuntu-latest
     container: django
     steps:
       - uses: actions/checkout@v2
 
       - name: Make Django Migrations
-        run: docker exec -it django python manage.py makemigrations
+        run: python manage.py makemigrations
       
       - name: Migrate Django Migrations
-        run: docker exec -it django python manage.py migrate
+        run: python manage.py migrate
