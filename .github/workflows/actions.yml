@@ -37,7 +37,7 @@ jobs:
         run: docker-compose up -d --build
 
       - name: Run postgres_monitor
-        run: docker-compose run web python postgres_monitor.py
+        run: python postgres_monitor.py
 
       - name: Make Django Migrations
         run: docker-compose run web python manage.py makemigrations
