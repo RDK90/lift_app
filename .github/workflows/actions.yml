@@ -39,15 +39,10 @@ jobs:
       - name: Run postgres_monitor
         run: python postgres_monitor.py
 
-  migrations:
-    needs: build
-    runs-on: ubuntu-latest
-    container: django
-    steps:
-      - uses: actions/checkout@v2
-
       - name: Make Django Migrations
+        container: django
         run: python manage.py makemigrations
       
       - name: Migrate Django Migrations
+        container: django
         run: python manage.py migrate
