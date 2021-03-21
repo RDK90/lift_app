@@ -35,3 +35,13 @@ jobs:
 
       - name: Build lift app
         run: docker-compose up -d --build
+
+      - name: Run postgres_monitor
+        run: python postgres_monitor.py
+
+      - name: Make Django Migrations
+        run: docker exec -it django python manage.py makemigrations
+      
+      - name: Migrate Django Migrations
+        run: docker exec -it django python manage.py migrate
+
