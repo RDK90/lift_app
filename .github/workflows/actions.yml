@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Install docker python package
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+        run: python pip install docker
