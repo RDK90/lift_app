@@ -47,3 +47,6 @@ jobs:
 
       - name: Run pytests
         run: docker-compose run web pytest --ds=lift.settings --cov
+
+      - name: Copy coveralls file
+        run: docker cp django:code/.coverage ./
