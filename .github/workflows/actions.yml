@@ -50,3 +50,6 @@ jobs:
 
       - name: Copy coveralls file
         run: docker cp django:code/.coverage ./
+
+      - name: Edit coveralls file
+        run: sed -i "s@\"/code/@\"${PWD}/@g" .coverage
